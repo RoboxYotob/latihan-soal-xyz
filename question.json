@@ -1,0 +1,2058 @@
+{
+  "schema_version": "2.0",
+  "database_title": "SmartQuiz Studio — Bank Soal Lintas Bidang",
+  "database_subtitle": "Katalog latihan interaktif dengan True Randomizer, Mode Kilat & Simulasi CBT",
+  "catalogs": [
+    {
+      "id": "hukum-bisnis-badan-usaha-jv-koperasi",
+      "title": "Hukum Bisnis: Badan Usaha, JV, EPS & Koperasi",
+      "category": "Hukum & Ekonomi",
+      "description": "10 studi kasus literasi panjang seputar PT Perorangan, pengendalian pemegang saham, perhitungan EPS, Yayasan, UU BUMN 2025, Empresa Mixta, BUMDes, Koperasi, KPPU, dan Joint Venture.",
+      "difficulty": "Menengah - Lanjut",
+      "estimated_minutes": 20,
+      "tags": ["Hukum Bisnis", "Literasi Kasus", "Keuangan"],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "story": [
+            "Rani mendirikan **PT Perorangan** pada 2024. Ia tidak memiliki Komisaris dan mengelola usaha seorang diri. Rekening PT dan rekening pribadinya sering tercampur: biaya sekolah anak dibayar dari rekening PT, sementara tagihan PT dibayar dari tabungan pribadi.",
+            "Untuk mengejar batas omzet PPh Final 0,5%, Rani memecah usaha menjadi empat PT Perorangan. Dua PT memakai nama adik dan sepupunya, tetapi klien besar hanya mengenal Rani dan semua keputusan tetap dari Rani.",
+            "Ketika PT pertama digugat karena gagal bayar, Rani memindahkan aset ke PT lain dan mengaku tidak punya harta. Kreditor meminta pengadilan menembus perlindungan badan hukum dan menilai pemecahan usaha sebagai penghindaran pajak. PP 20/2026 disebut akan membatasi pola semacam itu."
+          ],
+          "question": "Analisis hukum yang paling tepat adalah ...",
+          "options": {
+            "A": "PT Perorangan bukan badan hukum, sehingga harta Rani otomatis disita tanpa perlu pembuktian.",
+            "B": "Selama akta PT ada, pencampuran rekening dan pemecahan usaha selalu aman dari piercing the corporate veil.",
+            "C": "PT Perorangan berbadan hukum, tetapi perlindungan harta pribadi bisa gugur lewat *piercing the corporate veil* jika terbukti itikad buruk, perbuatan di luar kewenangan, atau harta tidak dipisah; pemecahan artifisial berisiko dibatasi PP 20/2026 dan dinilai penghindaran pajak.",
+            "D": "PP 20/2026 justru melegalkan pemecahan usaha agar semua pelaku UMKM tetap bayar PPh Final 0,5%.",
+            "E": "PT Perorangan wajib punya Komisaris, sehingga pendiriannya batal dan Rani otomatis menjadi sekutu aktif CV."
+          },
+          "answer": "C",
+          "hint": "Ingat bahwa PT Perorangan tetap berstatus badan hukum, namun pertanggungjawaban terbatas dapat ditembus bila terjadi pencampuran harta atau itikad buruk.",
+          "explanation": "**PT Perorangan adalah badan hukum** (Pasal 153A UU PT jo. UU Cipta Kerja). Namun, doktrin *piercing the corporate veil* memungkinkan pengadilan menembus batas tanggung jawab terbatas apabila pemegang saham mencampur kekayaan pribadi dengan perseroan, beritikad buruk, atau menggunakan PT untuk menghindari kewajiban hukum/pajak."
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "story": [
+            "PT Alpha menyetor modal <u>Rp 45 miliar</u>, PT Beta menyetor <u>Rp 30 miliar</u>, dan PT Gama menyetor <u>Rp 25 miliar</u> untuk membentuk PT Sinergi. Total modal disetor adalah <u>Rp 100 miliar</u>.",
+            "Dalam Perjanjian Pemegang Saham PT Sinergi diatur bahwa keputusan akuisisi, pinjaman di atas Rp 20 miliar, dan penggantian Direksi memerlukan persetujuan <u>75% saham</u>.",
+            "PT Alpha ingin segera mengakuisisi perusahaan lain. Ia merasa sebagai pemegang saham terbesar, ia bisa menentukan keputusan sendiri tanpa dukungan PT Beta atau PT Gama."
+          ],
+          "question": "Pernyataan yang paling tepat tentang porsi saham dan kendali di PT Sinergi adalah ...",
+          "options": {
+            "A": "Alpha 45%, Beta 30%, Gama 25%. Alpha bisa sendiri mengambil keputusan akuisisi karena pemegang saham terbesar.",
+            "B": "Alpha 45%, Beta 30%, Gama 25%. Karena ambang 75%, Alpha harus mendapat dukungan minimal 30% saham lain; Beta memiliki daya blokir terhadap kombinasi Alpha dan Gama.",
+            "C": "Alpha 60%, Beta 20%, Gama 20%. Alpha dan Gama cukup untuk semua keputusan.",
+            "D": "Saham selalu sama dengan kendali, sehingga hak veto dalam perjanjian pemegang saham tidak sah.",
+            "E": "Beta dan Gama tidak bisa menghalangi apa pun karena total saham mereka hanya 55%."
+          },
+          "answer": "B",
+          "hint": "Hitung persentase masing-masing terhadap Rp 100 miliar lalu uji kombinasi Alpha + Gama ($45\\% + 25\\%$).",
+          "explanation": "Porsi saham: Alpha $45\\%$, Beta $30\\%$, Gama $25\\%$. Karena ambang *reserved matters* adalah $75\\%$: kombinasi $\\text{Alpha} + \\text{Gama} = 45\\% + 25\\% = 70\\% < 75\\%$. Artinya keputusan akuisisi **tidak bisa lolos tanpa persetujuan Beta** ($45\\% + 30\\% = 75\\%$), sehingga Beta memegang daya blokir (*veto power*)."
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "story": [
+            "PT Cendana memiliki saham biasa yang beredar: Januari sampai Juni sebanyak <u>2.000.000 lembar</u>, lalu Juli sampai Desember menjadi <u>2.500.000 lembar</u>.",
+            "Laba bersih setelah pajak tahun berjalan adalah <u>Rp 82.000.000.000</u>. Dividen saham preferen yang harus dibayar adalah <u>Rp 2.000.000.000</u>.",
+            "Rumus dasar Laba per Saham adalah: $$\\text{EPS} = \\frac{\\text{Laba Bersih} - \\text{Dividen Saham Preferen}}{\\text{Rata-Rata Tertimbang Saham Biasa Beredar}}$$"
+          ],
+          "question": "Berapa EPS perusahaan tersebut, dibulatkan dua desimal?",
+          "options": {
+            "A": "Rp 32.000,00",
+            "B": "Rp 35.555,56",
+            "C": "Rp 36.444,44",
+            "D": "Rp 40.000,00",
+            "E": "Rp 82.000,00"
+          },
+          "answer": "B",
+          "hint": "Hitung dulu rata-rata tertimbang saham: 6/12 tahun bernilai 2 juta lembar, dan 6/12 tahun bernilai 2,5 juta lembar.",
+          "explanation": "1. **Rata-rata tertimbang saham**: $\\left(2.000.000 \\times \\frac{6}{12}\\right) + \\left(2.500.000 \\times \\frac{6}{12}\\right) = 1.000.000 + 1.250.000 = 2.250.000\\text{ lembar}$.\n2. **Laba tersedia untuk pemegang saham biasa**: $82\\text{ miliar} - 2\\text{ miliar} = 80\\text{ miliar}$.\n3. **EPS**: $$\\text{EPS} = \\frac{80.000.000.000}{2.250.000} = 35.555{,}555\\ldots \\approx \\text{Rp } 35.555{,}56$$"
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "story": [
+            "Yayasan Bina Sehat memiliki total kekayaan <u>Rp 40 miliar</u>. Yayasan itu ingin mendirikan PT Medika sebagai badan usaha penunjang dan menyetor modal sebesar <u>Rp 12 miliar</u>.",
+            "Beberapa pengurus berencana memakai dividen dari PT Medika untuk membagi keuntungan kepada Pembina, Pengurus, dan Pengawas. Mereka berargumen bahwa karena Yayasan tidak punya pemilik, dividen itu bebas dibagikan.",
+            "Namun, aturan yayasan membatasi penyertaan modal ke badan usaha penunjang dan melarang pembagian hasil usaha kepada organ yayasan."
+          ],
+          "question": "Analisis hukum yang paling tepat adalah ...",
+          "options": {
+            "A": "Boleh, karena Yayasan tidak punya pemilik sehingga dividen bebas dibagi.",
+            "B": "Boleh, asalkan modal PT tidak lebih dari 50% kekayaan yayasan.",
+            "C": "Tidak boleh; maksimal penyertaan modal 25% dari seluruh kekayaan yayasan, yaitu Rp 10 miliar, sehingga Rp 12 miliar melanggar. Dividen dari PT penunjang tidak boleh dibagikan kepada Pembina, Pengurus, atau Pengawas, tetapi harus dipakai untuk tujuan yayasan.",
+            "D": "Tidak boleh sama sekali; yayasan dilarang mendirikan PT penunjang.",
+            "E": "Boleh, karena yayasan berbadan hukum dan otomatis setara PT."
+          },
+          "answer": "C",
+          "hint": "Cek batas maksimal penyertaan modal yayasan dalam UU Yayasan ($25\\% \\times 40\\text{ M} = 10\\text{ M}$) serta sifat nirlaba yayasan.",
+          "explanation": "Sesuai Pasal 7 ayat (2) dan Pasal 5 UU Yayasan, penyertaan modal yayasan pada badan usaha paling banyak **$25\\%$ dari seluruh nilai kekayaan yayasan** ($25\\% \\times \\text{Rp } 40\\text{ M} = \\text{Rp } 10\\text{ M}$), sehingga Rp 12 M melampaui batas. Selain itu, hasil usaha/dividen dilarang dibagikan kepada Pembina, Pengurus, maupun Pengawas."
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "story": [
+            "PT Energi Nusantara adalah BUMN. Direksinya mengambil keputusan bisnis besar untuk membangun proyek panas bumi. Proyek itu kemudian merugi <u>Rp 2 triliun</u> karena perubahan kebijakan energi dan gejolak pasar.",
+            "Penyidik hendak memakai Pasal 2 dan Pasal 3 UU Tipikor. Ia berargumen bahwa kerugian BUMN adalah kerugian negara dan direksi harus dipidana karena menyalahgunakan kewenangan.",
+            "Setelah berlaku UU BUMN No. 1 Tahun 2025, Direksi dan Dewan Komisaris BUMN bukan penyelenggara negara. Keuntungan atau kerugian BUMN adalah keuntungan atau kerugian BUMN. Penindakan korupsi di BUMN tetap mungkin, tetapi fokusnya bergeser ke delik suap, gratifikasi, dan TPPU."
+          ],
+          "question": "Posisi hukum yang paling tepat setelah UU BUMN No. 1 Tahun 2025 adalah ...",
+          "options": {
+            "A": "UU BUMN 1/2025 menghapus semua delik korupsi di BUMN.",
+            "B": "Rugi BUMN otomatis kerugian negara, sehingga direksi pasti dipidana.",
+            "C": "Keuntungan atau kerugian BUMN adalah keuntungan atau kerugian BUMN; direksi dan dewan bukan penyelenggara negara; *business judgment rule* menguat, tetapi penindakan korupsi tetap fokus pada suap, gratifikasi, dan TPPU.",
+            "D": "Direksi BUMN kini kebal hukum tanpa kecuali.",
+            "E": "Pasal 2 dan 3 UU Tipikor otomatis batal untuk semua pegawai swasta."
+          },
+          "answer": "C",
+          "explanation": "UU BUMN No. 1 Tahun 2025 menegaskan pemisahan kekayaan BUMN sehingga kerugian bisnis murni tidak serta-merta dianggap kerugian keuangan negara apabila memenuhi prinsip *Business Judgment Rule* (itikad baik, kehati-hatian, tanpa benturan kepentingan). Namun tindak pidana suap, gratifikasi, penggelapan, dan TPPU tetap dapat dijerat."
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "story": [
+            "Pemerintah Daerah Kota Biru ingin bekerja sama dengan Global Water, perusahaan swasta asing, untuk mengelola air minum. Mereka menandatangani perjanjian yang disebut **Empresa Mixta**.",
+            "Dalam perjanjian itu, Global Water memegang <u>55% saham</u>, menunjuk Direktur Utama, dan menentukan tarif air secara sepihak. Pemda hanya menyediakan aset dan menerima laporan.",
+            "Kasus PDAM Manado dijadikan peringatan: kerja sama yang mencampur Corporate JV dan Contractual Joint Operation tanpa pemisahan aset yang sah dinilai sebagai peleburan terselubung yang merugikan keuangan daerah."
+          ],
+          "question": "Analisis yang paling tepat tentang struktur kerja sama tersebut adalah ...",
+          "options": {
+            "A": "Sah sebagai Empresa Mixta karena swasta boleh mayoritas asal ada perjanjian.",
+            "B": "Tidak sesuai Empresa Mixta; pemerintah wajib mayoritas minimal 51%, kepala dewan direksi diangkat pemerintah, dan kebijakan strategis serta tarif wajib disetujui pemerintah. Aset juga harus dipisahkan lewat *inbreng* atau jual-beli sah, bukan peleburan terselubung.",
+            "C": "Empresa Mixta sama persis dengan Joint Venture biasa, sehingga 55% swasta sah.",
+            "D": "PDAM Manado membuktikan bahwa aset daerah boleh dilebur tanpa prosedur.",
+            "E": "Empresa Mixta hanya berlaku untuk perusahaan swasta murni."
+          },
+          "answer": "B",
+          "explanation": "Model *Empresa Mixta* pada layanan publik mensyaratkan **kendali publik oleh pemerintah** (saham mayoritas minimal 51%, kendali atas tarif publik, serta prosedur pemisahan aset daerah yang sah melalui penyertaan modal/*inbreng* atau transaksi sah)."
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "story": [
+            "BUM Desa Mekar Sejahtera didirikan oleh beberapa desa. Namun, pendaftaran badan hukumnya di Kemenkumham belum selesai. Pengurus tetap ingin menjadi pemegang saham dalam PT JV dengan menyertakan aset desa.",
+            "Saat sengketa muncul, pihak ketiga mempertanyakan kedudukan hukum BUM Desa tersebut. Pengurus berdalih bahwa undang-undang sudah menyebut BUM Desa sebagai badan hukum, jadi pendaftaran dianggap tidak penting.",
+            "Dalam praktik, BUM Desa yang belum terdaftar bisa lemah saat berkontrak atau menjadi pemegang saham, terutama jika menyangkut harta desa dan tanggung jawab hukum."
+          ],
+          "question": "Risiko hukum yang paling tepat adalah ...",
+          "options": {
+            "A": "BUM Desa tidak mungkin menjadi pemegang saham karena bukan badan hukum.",
+            "B": "Menurut aturan BUM Desa adalah badan hukum, tetapi jika belum terdaftar di Kemenkumham, kedudukan hukumnya lemah saat berkontrak atau menjadi pemegang saham; legalitas sebaiknya diselesaikan dulu agar harta desa terlindungi.",
+            "C": "Belum terdaftar tetap sama kuat dengan PT Tbk.",
+            "D": "BUM Desa harus berubah menjadi Yayasan sebelum menjadi pemegang saham.",
+            "E": "BUM Desa hanya boleh didirikan oleh swasta asing."
+          },
+          "answer": "B",
+          "explanation": "Meskipun UU Cipta Kerja dan PP No. 11 Tahun 2021 mengakui BUM Desa sebagai badan hukum, pengesahan/pendaftaran resmi di sistem Kemenkumham memberikan bukti administratif keabsahan subjek hukum (*legal standing*) dalam perikatan dan penyertaan modal pada PT."
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "story": [
+            "Koperasi Sinar memiliki SHU tahunan <u>Rp 500 juta</u>. Anggota A memiliki simpanan besar, tetapi jarang bertransaksi di koperasi. Anggota B memiliki simpanan lebih kecil, tetapi sangat aktif memanfaatkan layanan koperasi.",
+            "Sebagian anggota ingin membagi SHU hanya berdasarkan besar simpanan modal. Mereka beralasan pemilik modal terbesar harus mendapat bagian terbesar. Anggota lain menolak karena koperasi bukan PT.",
+            "Koperasi itu memiliki utang <u>Rp 2 miliar</u> dan aset <u>Rp 1,2 miliar</u>. Kreditor mengancam menyita rumah pribadi Anggota A. Anggota A tidak terbukti melakukan kecurangan."
+          ],
+          "question": "Analisis hukum yang paling tepat tentang koperasi, SHU, dan tanggung jawab anggota adalah ...",
+          "options": {
+            "A": "SHU dibagi hanya berdasarkan besar simpanan modal; rumah anggota A bisa disita karena koperasi bukan badan hukum.",
+            "B": "Koperasi berbadan hukum; SHU dibagi berdasarkan jasa usaha anggota dan modal secara seimbang sesuai AD/ART, tidak semata-mata modal; tanggung jawab anggota terbatas pada simpanan pokok dan wajib, sehingga rumah pribadi tidak otomatis disita tanpa kecurangan.",
+            "C": "Koperasi sama dengan Firma sehingga semua anggota bertanggung renteng sampai harta pribadi.",
+            "D": "SHU wajib dibagi rata tanpa melihat partisipasi dan simpanan.",
+            "E": "Koperasi tidak boleh memiliki utang."
+          },
+          "answer": "B",
+          "explanation": "Prinsip utama Koperasi (UU No. 25/1992) adalah badan hukum berasas kekeluargaan: **SHU dibagi sebanding dengan jasa usaha (partisipasi transaksi) dan jasa modal**, bukan murni kapital seperti PT. Tanggung jawab anggota pun terbatas pada simpanan pokok, simpanan wajib, dan modal penyertaan."
+        },
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "story": [
+            "PT Semen A membeli <u>60% saham</u> PT Semen B. Dengan pembelian itu, kendali atas PT Semen B berpindah kepada PT Semen A. Setelah itu, PT Semen A dan PT Semen B melebur menjadi satu perusahaan baru bernama PT Semen Baru, sementara A dan B bubar.",
+            "PT Semen Baru kemudian menguasai <u>75% pangsa pasar</u> semen nasional dan juga bergabung dengan perusahaan kemasan. KPPU mulai menyelidiki apakah penggabungan ini menciptakan monopoli atau persaingan usaha tidak sehat.",
+            "Dalam UU No. 5 Tahun 1999, ada larangan kartel dan trust. Ada pula pembedaan integrasi vertikal dan horizontal."
+          ],
+          "question": "Klasifikasi dan analisis persaingan usaha yang paling tepat adalah ...",
+          "options": {
+            "A": "Peristiwa pertama adalah merger, kedua adalah akuisisi; pangsa pasar 75% selalu legal.",
+            "B": "Peristiwa pertama adalah akuisisi karena pengambilalihan saham yang mengalihkan kendali; peristiwa kedua adalah konsolidasi karena melebur dan mendirikan PT baru. Jika menciptakan monopoli atau persaingan tidak sehat, KPPU dapat menilai pelanggaran, misalnya trust Pasal 12 atau kartel Pasal 11.",
+            "C": "Peristiwa pertama adalah konsolidasi, kedua adalah merger; KPPU tidak berwenang.",
+            "D": "Keduanya adalah Contractual Joint Venture tanpa badan hukum baru.",
+            "E": "Keduanya otomatis dilarang tanpa perlu melihat pasar."
+          },
+          "answer": "B",
+          "hint": "Bedakan pengambilalihan saham pengendali (**akuisisi**) dengan peleburan dua PT menjadi entitas baru yang membuat keduanya bubar (**konsolidasi**).",
+          "explanation": "Menurut UU PT, pembelian mayoritas saham yang mengalihkan pengendalian disebut **Akuisisi (Pengambilalihan)**, sedangkan peleburan dua perseroan menjadi satu PT baru sementara kedua PT lama bubar demi hukum disebut **Konsolidasi (Peleburan)**. Penguasaan pangsa >50%/75% juga memicu notifikasi & evaluasi KPPU terkait potensi monopoli/trust (UU 5/1999)."
+        },
+        {
+          "id": 10,
+          "type": "multiple_choice",
+          "story": [
+            "Konsorsium BUMN dan swasta mengerjakan proyek jalan tol melalui **Contractual Joint Venture** atau Joint Operation. Mereka tidak mendirikan PT baru. Setiap anggota konsorsium memiliki NPWP sendiri dan menanggung pajaknya masing-masing.",
+            "Beberapa pihak menyamakan bentuk kerja sama itu dengan Corporate Joint Venture seperti Telkomsel, yang berbentuk PT dan menjadi subjek pajak badan sendiri.",
+            "Dalam PER-7/PJ/2025, arti entitas Joint Operation dalam pajak bisa berbeda dari pemahaman bisnis sehari-hari. Kesalahan memahami bentuk JV bisa berakibat salah pemotongan dan pelaporan pajak."
+          ],
+          "question": "Analisis hukum dan pajak yang paling tepat adalah ...",
+          "options": {
+            "A": "Contractual JO mendirikan badan hukum baru, sehingga pajaknya sebagai badan.",
+            "B": "Contractual JO tidak mendirikan badan hukum baru; pajak ditanggung masing-masing anggota JO, berbeda dari Corporate JV yang PT barunya menjadi subjek pajak badan. Perbedaan arti entitas JO dalam PER-7/PJ/2025 harus dicermati.",
+            "C": "Corporate JV tidak pernah menjadi subjek pajak badan.",
+            "D": "Joint Operation selalu sama dengan PT Tbk.",
+            "E": "Contractual JO tidak boleh memiliki NPWP anggota."
+          },
+          "answer": "B",
+          "explanation": "**Contractual JV / Joint Operation (JO)** bersifat perjanjian kerja sama proyek tanpa membentuk PT baru (*unincorporated*). Sebaliknya, **Corporate JV** membentuk PT baru yang menjadi badan hukum dan subjek pajak badan tersendiri. Selain itu, kewajiban administrasi PPh/PPN pada JO diatur khusus dalam ketentuan perpajakan terbaru (PER-7/PJ/2025)."
+        }
+      ]
+    },
+    {
+      "id": "analisis-kuantitatif-kalkulus-fisika-modern",
+      "title": "Analisis Kuantitatif, Kalkulus & Fisika Modern",
+      "category": "Sains & Matematika",
+      "description": "Indeks demonstrasi seluruh fitur canggih: rendering LaTeX inline & blok, matriks, bacaan eksperimen, pilihan ganda kompleks (multi-select), teks mata uang bersebelahan dengan rumus, petunjuk (hint), dan pembahasan terperinci.",
+      "difficulty": "Menengah",
+      "estimated_minutes": 15,
+      "tags": ["Kalkulus", "Fisika", "Kimia", "LaTeX Showcase"],
+      "questions": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "story": [
+            "Sebuah partikel bergerak sepanjang sumbu-$x$ dengan fungsi kecepatan $v(t) = 3t^2 - 12t + 9\\text{ m/s}$ untuk $t \\ge 0$. Pada saat awal ($t = 0$), partikel berada pada posisi $x(0) = 2\\text{ m}$.",
+            "Perpindahan partikel pada selang $[a, b]$ dirumuskan oleh: $$\\Delta x = \\int_a^b v(t)\\,dt$$ sedangkan **jarak tempuh total** memperhitungkan pembalikan arah gerak: $$s = \\int_a^b |v(t)|\\,dt$$"
+          ],
+          "question": "Berapakah **posisi akhir** $x(4)$ dan **jarak tempuh total** partikel selama selang $0 \\le t \\le 4$ detik?",
+          "options": {
+            "A": "Posisi akhir $4\\text{ m}$ dan jarak tempuh $4\\text{ m}$",
+            "B": "Posisi akhir $6\\text{ m}$ dan jarak tempuh $4\\text{ m}$",
+            "C": "Posisi akhir $6\\text{ m}$ dan jarak tempuh $12\\text{ m}$",
+            "D": "Posisi akhir $4\\text{ m}$ dan jarak tempuh $12\\text{ m}$",
+            "E": "Posisi akhir $8\\text{ m}$ dan jarak tempuh $10\\text{ m}$"
+          },
+          "answer": "C",
+          "hint": "Faktorkan $v(t) = 3(t - 1)(t - 3)$ untuk menemukan saat partikel berbalik arah di $t = 1$ dan $t = 3$.",
+          "explanation": "Antiturunan kecepatan adalah $X(t) = \\int (3t^2 - 12t + 9)\\,dt = t^3 - 6t^2 + 9t$.\n- Nilai $X(0) = 0$, $X(1) = 4$, $X(3) = 0$, dan $X(4) = 4$.\n- **Posisi akhir**: $x(4) = x(0) + (X(4) - X(0)) = 2 + 4 = 6\\text{ m}$.\n- **Jarak tempuh total** pada tiga sub-selang $[0,1]$, $[1,3]$, $[3,4]$: $$s = |4 - 0| + |0 - 4| + |4 - 0| = 4 + 4 + 4 = 12\\text{ m}$$"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "story": [
+            "Transformasi linear $T: \\mathbb{R}^2 \\to \\mathbb{R}^2$ direpresentasikan oleh matriks persegi berikut: \\[A = \\begin{pmatrix} 3 & 1 \\\\ 2 & 4 \\end{pmatrix}\\]"
+          ],
+          "question": "Berapakah nilai determinan $\\det(A)$ dan jumlah seluruh nilai eigen ($\\lambda_1 + \\lambda_2$) dari matriks $A$?",
+          "options": {
+            "A": "$\\det(A) = 10$ dan $\\lambda_1 + \\lambda_2 = 7$",
+            "B": "$\\det(A) = 14$ dan $\\lambda_1 + \\lambda_2 = 7$",
+            "C": "$\\det(A) = 10$ dan $\\lambda_1 + \\lambda_2 = 10$",
+            "D": "$\\det(A) = 7$ dan $\\lambda_1 + \\lambda_2 = 10$",
+            "E": "$\\det(A) = 12$ dan $\\lambda_1 + \\lambda_2 = 5$"
+          },
+          "answer": "A",
+          "hint": "Ingat sifat aljabar linear: jumlah nilai eigen selalu sama dengan *trace* matriks ($a_{11} + a_{22}$).",
+          "explanation": "Determinan matriks $2 \\times 2$: $$\\det(A) = (3)(4) - (1)(2) = 12 - 2 = 10$$ Sedangkan jumlah nilai eigen sama dengan *trace*: $$\\lambda_1 + \\lambda_2 = \\operatorname{tr}(A) = 3 + 4 = 7$$ (Nilai eigennya sendiri adalah $\\lambda_1 = 5$ dan $\\lambda_2 = 2$)."
+        },
+        {
+          "id": 3,
+          "type": "multiple_select",
+          "story": [
+            "Sebanyak $n = 2\\text{ mol}$ gas ideal monoatomik ($C_V = \\frac{3}{2}R$) menjalani proses **isotermal reversibel** pada suhu tetap $T = 300\\text{ K}$ sehingga volumenya memuai dari $V_1 = 2\\text{ L}$ menjadi $V_2 = 4\\text{ L}$.",
+            "Diketahui hukum pertama termodinamika adalah $\\Delta U = Q - W$, dengan $W$ adalah usaha yang dilakukan oleh gas."
+          ],
+          "question": "Manakah pernyataan berikut yang **BENAR** mengenai proses tersebut? *(Pilih **3 jawaban** yang tepat)*",
+          "options": {
+            "A": "Perubahan energi dalam gas bernilai nol ($\\Delta U = 0$).",
+            "B": "Gas melepaskan kalor ke lingkungan ($Q < 0$).",
+            "C": "Usaha yang dilakukan gas adalah $W = 2RT \\ln(2)$.",
+            "D": "Tekanan akhir gas menjadi setengah tekanan semula ($P_2 = \\frac{1}{2}P_1$).",
+            "E": "Kalor yang diserap lebih besar daripada usaha yang dilakukan ($Q > W$)."
+          },
+          "answer": ["A", "C", "D"],
+          "hint": "Pada proses isotermal gas ideal, suhu konstan berarti $\\Delta T = 0$. Gunakan juga hukum Boyle $P_1 V_1 = P_2 V_2$.",
+          "explanation": "1. **A benar**: Gas ideal bergantung hanya pada suhu; karena $\\Delta T = 0$, maka $\\Delta U = 0$.\n2. **B & E salah**: Dari $\\Delta U = Q - W = 0$, didapat $Q = W$. Karena memuai, $W > 0$ sehingga gas menyerap kalor ($Q > 0$).\n3. **C benar**: $$W = nRT \\ln\\left(\\frac{V_2}{V_1}\\right) = 2RT \\ln\\left(\\frac{4}{2}\\right) = 2RT \\ln(2)$$\n4. **D benar**: Pada suhu konstan, $P_2 = P_1 \\frac{V_1}{V_2} = \\frac{1}{2}P_1$."
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "shuffle_options": false,
+          "story": [
+            "Reaksi kesetimbangan pembentukan amonia (Proses Haber-Bosch) dituliskan sebagai: $$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\qquad \\Delta H = -92{,}4\\text{ kJ}$$ Menurut *asas Le Chatelier*, sistem kesetimbangan akan bergeser untuk meminimalkan gangguan eksternal (perubahan suhu, tekanan, atau konsentrasi)."
+          ],
+          "question": "Tindakan manakah yang menyebabkan kesetimbangan bergeser ke **kanan** (meningkatkan produksi NH<sub>3</sub>)?",
+          "options": {
+            "A": "Memperbesar tekanan sistem (memperkecil volume wadah).",
+            "B": "Menurunkan suhu sistem karena reaksi ke kanan bersifat eksoterm ($\\Delta H < 0$).",
+            "C": "Menambahkan katalis besi (Fe) agar nilai tetapan kesetimbangan $K_c$ membesar.",
+            "D": "Pernyataan A dan B benar.",
+            "E": "Mengurangi konsentrasi gas N<sub>2</sub> secara terus-menerus."
+          },
+          "answer": "D",
+          "hint": "Perhatikan perbandingan koefisien gas kiri (4 mol) vs kanan (2 mol), serta efek katalis yang hanya mempercepat laju tanpa menggeser kesetimbangan.",
+          "explanation": "- Memperbesar tekanan menggeser reaksi ke jumlah mol gas lebih kecil: kiri $1 + 3 = 4\\text{ mol}$, kanan $2\\text{ mol}$, jadi bergeser ke **kanan** (A benar).\n- Reaksi ke kanan eksoterm ($\\Delta H < 0$), sehingga menurunkan suhu menggeser kesetimbangan ke **kanan** (B benar).\n- Katalis hanya mempercepat tercapainya kesetimbangan tanpa mengubah posisi maupun $K_c$ (C salah). Oleh karena itu **D** adalah jawaban paling tepat."
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+"story": [
+  "Sebuah portofolio simulasi senilai \\$100 dan cadangan kas \\$50 memiliki imbal hasil tahunan berdistribusi normal $X \\sim \\mathcal{N}(\\mu, \\sigma^2)$ dengan rata-rata $\\mu = 12\\%$ dan simpangan baku $\\sigma = 3\\%$.",
+  "Untuk menghitung skor baku (*z-score*), digunakan persamaan \\(Z = \\frac{X - \\mu}{\\sigma}\\)."
+],
+          "question": "Jika seorang analis menginginkan imbal hasil di atas $18\\%$, berapakah nilai $z$-score dan peluang $P(X > 18\\%)$? *(Diketahui $P(Z \\le 2) \\approx 0{,}9772$)*",
+          "options": {
+            "A": "$Z = 1{,}5$ dan peluang $6{,}68\\%$",
+            "B": "$Z = 2{,}0$ dan peluang $2{,}28\\%$",
+            "C": "$Z = 2{,}0$ dan peluang $97{,}72\\%$",
+            "D": "$Z = 3{,}0$ dan peluang $0{,}13\\%$",
+            "E": "$Z = 2{,}0$ dan peluang $4{,}56\\%$"
+          },
+          "answer": "B",
+          "hint": "Hitung dulu $Z = (18 - 12)/3$, lalu ingat bahwa peluang ekor kanan adalah $1 - P(Z \\le z)$.",
+          "explanation": "1. Skor baku: $$Z = \\frac{18 - 12}{3} = 2{,}0$$\n2. Peluang di atas $18\\%$: $$P(X > 18\\%) = P(Z > 2) = 1 - P(Z \\le 2) = 1 - 0{,}9772 = 0{,}0228 = 2{,}28\\%$$"
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "story": [
+            "Sebuah pesawat antariksa bergerak menjauhi Bumi dengan laju konstan $v = 0{,}8c$, di mana $c$ adalah laju cahaya di ruang hampa. Faktor Lorentz didefinisikan sebagai: $$\\gamma = \\frac{1}{\\sqrt{1 - \\frac{v^2}{c^2}}}$$",
+            "Menurut relativitas khusus Einstein, selang waktu di Bumi mengalami **dilatasi waktu** ($\\Delta t = \\gamma \\Delta t_0$), sedangkan panjang pesawat sepanjang arah gerak mengalami **kontraksi panjang** ($L = \\frac{L_0}{\\gamma}$)."
+          ],
+          "question": "Jika panjang sejati pesawat adalah $L_0 = 150\\text{ m}$ dan eksperimen di dalam pesawat berlangsung selama $\\Delta t_0 = 12\\text{ menit}$, berapakah panjang $L$ dan durasi $\\Delta t$ yang diukur pengamat di Bumi?",
+          "options": {
+            "A": "$L = 250\\text{ m}$ dan $\\Delta t = 7{,}2\\text{ menit}$",
+            "B": "$L = 90\\text{ m}$ dan $\\Delta t = 20\\text{ menit}$",
+            "C": "$L = 90\\text{ m}$ dan $\\Delta t = 7{,}2\\text{ menit}$",
+            "D": "$L = 120\\text{ m}$ dan $\\Delta t = 15\\text{ menit}$",
+            "E": "$L = 150\\text{ m}$ dan $\\Delta t = 20\\text{ menit}$"
+          },
+          "answer": "B",
+          "hint": "Hitung $\\gamma$ untuk $v/c = 0{,}8$ (triple Pythagoras 3-4-5 mempermudah perhitungan!).",
+          "explanation": "Untuk $\\beta = v/c = 0{,}8$, didapat $\\sqrt{1 - 0{,}8^2} = \\sqrt{0{,}36} = 0{,}6$, sehingga: $$\\gamma = \\frac{1}{0{,}6} = \\frac{5}{3}$$\n- **Kontraksi panjang**: $L = \\frac{150}{5/3} = 150 \\times 0{,}6 = 90\\text{ m}$.\n- **Dilatasi waktu**: $\\Delta t = \\frac{5}{3} \\times 12 = 20\\text{ menit}$."
+        }
+      ]
+    },
+  {
+    "id": "fisika-rotasi-01-hafalan-konsep",
+    "title": "Fisika — 01. Bank Hafalan & Konsep Inti Dinamika Rotasi (30 Soal)",
+    "category": "Fisika",
+    "description": "30 soal fokus hafalan rumus, satuan SI, dimensi, koefisien momen inersia benda tegar, analogi translasi-rotasi, dan identifikasi asumsi serta kesalahan rumus klasik.",
+    "difficulty": "Mudah - Menengah",
+    "estimated_minutes": 30,
+    "tags": ["Dinamika Rotasi", "Hafalan Rumus", "Konsep Inti"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Momen gaya (torsi) merupakan besaran vektor yang didefinisikan sebagai hasil perkalian silang antara vektor posisi dan vektor gaya: $$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$$"
+        ],
+        "question": "Pernyataan yang paling tepat mengenai arah vektor, satuan SI, dan dimensi momen gaya adalah ...",
+        "options": {
+          "A": "Arahnya sejajar garis kerja gaya $\\vec{F}$, bersatuan $\\text{N}\\cdot\\text{m}$, dan berdimensi $[M][L]^2[T]^{-2}$",
+          "B": "Arahnya sepanjang sumbu putar, bersatuan $\\text{N}\\cdot\\text{m}$, dan berdimensi $[M][L]^2[T]^{-1}$",
+          "C": "Arahnya sepanjang sumbu putar, bersatuan $\\text{N}\\cdot\\text{m}$, dan berdimensi $[M][L]^2[T]^{-2}$",
+          "D": "Arahnya sejajar vektor posisi $\\vec{r}$, bersatuan $\\text{kg}\\cdot\\text{m}^2/\\text{s}$, dan berdimensi $[M][L]^2[T]^{-2}$",
+          "E": "Arahnya sepanjang sumbu putar, bersatuan $\\text{N}/\\text{m}$, dan berdimensi $[M][L][T]^{-2}$"
+        },
+        "answer": "C",
+        "hint": "Hasil perkalian silang selalu tegak lurus terhadap bidang yang dibentuk kedua vektor, yaitu sejajar sumbu rotasi.",
+        "explanation": "Arah $\\vec{\\tau} = \\vec{r} \\times \\vec{F}$ tegak lurus bidang $\\vec{r}$ dan $\\vec{F}$ (sepanjang sumbu putar sesuai kaidah tangan kanan). Satuan SI-nya $\\text{N}\\cdot\\text{m} = (\\text{kg}\\cdot\\text{m}/\\text{s}^2)\\cdot\\text{m} = \\text{kg}\\cdot\\text{m}^2/\\text{s}^2$, sehingga dimensinya adalah $[M][L]^2[T]^{-2}$."
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "question": "Dalam persamaan besar momen gaya $\\tau = r F \\sin\\theta$, makna fisis sudut $\\theta$ yang tepat adalah sudut apit terkecil antara ...",
+        "options": {
+          "A": "Vektor posisi $\\vec{r}$ (dari poros ke titik tangkap) dan arah sumbu putar",
+          "B": "Garis kerja gaya $\\vec{F}$ dan garis vertikal terhadap bidang datar",
+          "C": "Garis kerja gaya $\\vec{F}$ dan arah percepatan sudut $\\vec{\\alpha}$ sistem",
+          "D": "Vektor gaya $\\vec{F}$ dan garis normal yang tegak lurus terhadap batang",
+          "E": "Vektor posisi $\\vec{r}$ (dari poros ke titik tangkap) dan vektor gaya $\\vec{F}$"
+        },
+        "answer": "E",
+        "hint": "Jika sudut diukur terhadap garis normal batang, fungsi trigonometri yang dipakai berubah menjadi kosinus.",
+        "explanation": "Pada definisi $\\tau = |\\vec{r} \\times \\vec{F}| = r F \\sin\\theta$, sudut $\\theta$ adalah sudut antara vektor lengan $\\vec{r}$ (sepanjang batang dari poros ke titik kerja) dan vektor gaya $\\vec{F}$."
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "question": "Sebuah gaya tak nol ($\\vec{F} \\ne 0$) bekerja pada benda tegar yang memiliki poros tetap, tetapi menghasilkan momen gaya bernilai nol ($\\tau = 0$). Kondisi ini terjadi apabila ...",
+        "options": {
+          "A": "Garis kerja gaya sejajar dengan arah percepatan tangensial ujung batang",
+          "B": "Garis kerja gaya melewati titik poros atau sejajar vektor posisi $\\vec{r}$",
+          "C": "Titik tangkap gaya berada di ujung terjauh dan tegak lurus terhadap batang",
+          "D": "Besar gaya lebih kecil daripada gaya berat benda di pusat massanya",
+          "E": "Gaya bekerja secara konstan sehingga kelajuan sudut benda menjadi tetap"
+        },
+        "answer": "B",
+        "hint": "Tinjau kapan nilai $r = 0$ atau $\\sin\\theta = 0$ dalam rumus $\\tau = r F \\sin\\theta$.",
+        "explanation": "Momen gaya bernilai nol meskipun $F \\ne 0$ jika lengan gaya $r = 0$ (titik tangkap tepat di poros) atau garis kerja gaya melewati poros sehingga $\\theta = 0^\\circ$ maupun $\\theta = 180^\\circ$ ($\\sin\\theta = 0$)."
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "question": "Pernyataan yang paling tepat mengenai sifat fisis, satuan SI, dan dimensi momen inersia ($I$) suatu benda tegar adalah ...",
+        "options": {
+          "A": "Bergantung pada percepatan sudut benda, bersatuan $\\text{kg}\\cdot\\text{m}^2$, dan berdimensi $[M][L]^2$",
+          "B": "Bergantung pada kecepatan sudut rotasi, bersatuan $\\text{kg}\\cdot\\text{m}$, dan berdimensi $[M][L]$",
+          "C": "Hanya bergantung pada massa total benda, bersatuan $\\text{kg}\\cdot\\text{m}^2/\\text{s}$, dan berdimensi $[M][L]^2[T]^{-1}$",
+          "D": "Bergantung pada letak sumbu putar serta distribusi massa, bersatuan $\\text{kg}\\cdot\\text{m}^2$, dan berdimensi $[M][L]^2$",
+          "E": "Bergantung pada besar gaya penggerak, bersatuan $\\text{N}\\cdot\\text{m}^2$, dan berdimensi $[M][L]^3[T]^{-2}$"
+        },
+        "answer": "D",
+        "hint": "Ingat bahwa satu benda yang sama bisa memiliki nilai momen inersia berbeda bila porosnya digeser.",
+        "explanation": "Momen inersia $I = \\sum m_i r_i^2$ adalah ukuran kelembaman rotasi yang bergantung pada massa, distribusi geometri massa, dan posisi sumbu putar. Satuannya $\\text{kg}\\cdot\\text{m}^2$ dengan dimensi $[M][L]^2$."
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Dalam rumus momen inersia sistem banyak partikel $I = \\sum m_i r_i^2$, besaran $r_i$ menyatakan ...",
+        "options": {
+          "A": "Jarak tegak lurus dari partikel bermassa $m_i$ menuju garis sumbu putar",
+          "B": "Jarak garis lurus terpendek dari partikel ke titik asal koordinat $(0,0,0)$",
+          "C": "Jari-jari lintasan lengkung yang diukur dari partikel ke pusat massa sistem",
+          "D": "Jarak horizontal partikel terhadap partikel tetangga yang bermassa paling besar",
+          "E": "Panjang total batang penghubung antarpartikel dikalikan sinus sudut kemiringan"
+        },
+        "answer": "A",
+        "hint": "Jika sebuah partikel terletak tepat pada sumbu putar (misalnya sumbu Y), maka $r_i = 0$ meskipun koordinatnya jauh dari $(0,0)$.",
+        "explanation": "Jarak $r_i$ pada $I = \\sum m_i r_i^2$ selalu berupa jarak **tegak lurus** terpendek dari partikel $m_i$ ke garis sumbu putar yang dipilih, bukan jarak ke titik asal koordinat."
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "question": "Untuk batang silinder tipis homogen bermassa $M$ dan panjang $L$ dengan sumbu putar tegak lurus batang, pasangan rumus momen inersia di pusat ($I_{\\text{pusat}}$) dan di salah satu ujung ($I_{\\text{ujung}}$) yang benar adalah ...",
+        "options": {
+          "A": "$I_{\\text{pusat}} = \\frac{1}{6}ML^2$ dan $I_{\\text{ujung}} = \\frac{1}{3}ML^2$",
+          "B": "$I_{\\text{pusat}} = \\frac{1}{12}ML^2$ dan $I_{\\text{ujung}} = \\frac{1}{3}ML^2$",
+          "C": "$I_{\\text{pusat}} = \\frac{1}{12}ML^2$ dan $I_{\\text{ujung}} = \\frac{1}{4}ML^2$",
+          "D": "$I_{\\text{pusat}} = \\frac{1}{3}ML^2$ dan $I_{\\text{ujung}} = \\frac{1}{12}ML^2$",
+          "E": "$I_{\\text{pusat}} = \\frac{1}{2}ML^2$ dan $I_{\\text{ujung}} = ML^2$"
+        },
+        "answer": "B",
+        "hint": "Gunakan teorema sumbu sejajar dari pusat ke ujung dengan geseran $d = L/2$: $\\frac{1}{12} + \\frac{1}{4}$.",
+        "explanation": "Batang homogen yang diputar melalui pusatnya memiliki $I_{\\text{pusat}} = \\frac{1}{12}ML^2$. Jika poros digeser ke ujung sejauh $d = L/2$, maka $I_{\\text{ujung}} = \\frac{1}{12}ML^2 + M(L/2)^2 = \\frac{1}{3}ML^2$."
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "question": "Pasangan rumus momen inersia terhadap sumbu simetri memanjang untuk **silinder pejal** dan **silinder tipis berongga** bermassa $M$ serta jari-jari $R$ berturut-turut adalah ...",
+        "options": {
+          "A": "$\\frac{1}{4}MR^2$ dan $\\frac{1}{2}MR^2$",
+          "B": "$\\frac{2}{5}MR^2$ dan $\\frac{2}{3}MR^2$",
+          "C": "$\\frac{1}{2}MR^2$ dan $MR^2$",
+          "D": "$MR^2$ dan $\\frac{1}{2}MR^2$",
+          "E": "$\\frac{1}{2}MR^2$ dan $\\frac{2}{3}MR^2$"
+        },
+        "answer": "C",
+        "hint": "Pada silinder tipis berongga (cincin), seluruh massa terletak pada jarak $R$ yang sama dari sumbu putar.",
+        "explanation": "Pada silinder tipis berongga, semua elemen massa berjarak $R$ dari sumbu simetri sehingga $I = MR^2$. Pada silinder pejal yang massanya tersebar dari $0$ sampai $R$, momen inersianya lebih kecil, yakni $I = \\frac{1}{2}MR^2$."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "question": "Pasangan rumus momen inersia terhadap sumbu yang melalui pusat untuk **bola pejal** dan **bola tipis berongga** bermassa $M$ serta jari-jari $R$ berturut-turut adalah ...",
+        "options": {
+          "A": "$\\frac{1}{2}MR^2$ dan $MR^2$",
+          "B": "$\\frac{2}{3}MR^2$ dan $\\frac{2}{5}MR^2$",
+          "C": "$\\frac{1}{5}MR^2$ dan $\\frac{1}{3}MR^2$",
+          "D": "$\\frac{2}{5}MR^2$ dan $\\frac{2}{3}MR^2$",
+          "E": "$\\frac{2}{5}MR^2$ dan $MR^2$"
+        },
+        "answer": "D",
+        "hint": "Benda berongga memiliki distribusi massa lebih menjauhi pusat sehingga koefisien $I$-nya lebih besar daripada benda pejal.",
+        "explanation": "Bola pejal homogen memiliki $I = \\frac{2}{5}MR^2 = 0{,}4 MR^2$, sedangkan bola tipis berongga (kulit bola) memiliki $I = \\frac{2}{3}MR^2 \\approx 0{,}67 MR^2$."
+      },
+      {
+        "id": 9,
+        "type": "multiple_choice",
+        "story": [
+          "Sering terjadi kekeliruan penulisan rumus pelat segi empat tipis homogen bersisi panjang $b$ dan lebar $a$ pada bahan ajar ketika sumbu putar dipindahkan ke tepi pelat."
+        ],
+        "question": "Jika sumbu putar berada di **pusat tegak lurus bidang pelat** ($I_1$) dibandingkan dengan sumbu putar di **ujung tepi sepanjang sisi $a$ pada bidang pelat** ($I_2$, membentang sejauh $b$), pasangan rumus yang benar adalah ...",
+        "options": {
+          "A": "$I_1 = \\frac{1}{12}M(a^2 + b^2)$ dan $I_2 = \\frac{1}{12}Ma^2$",
+          "B": "$I_1 = \\frac{1}{6}M(a^2 + b^2)$ dan $I_2 = \\frac{1}{3}Ma^2$",
+          "C": "$I_1 = \\frac{1}{3}M(a^2 + b^2)$ dan $I_2 = \\frac{1}{12}Mb^2$",
+          "D": "$I_1 = \\frac{1}{12}M(a^2 - b^2)$ dan $I_2 = \\frac{1}{2}Mb^2$",
+          "E": "$I_1 = \\frac{1}{12}M(a^2 + b^2)$ dan $I_2 = \\frac{1}{3}Mb^2$"
+        },
+        "answer": "E",
+        "hint": "Untuk sumbu di tepi sisi $a$, setiap irisan pelat terbentang dari $0$ hingga $b$ seperti batang berporos di ujung.",
+        "explanation": "Di pusat tegak lurus bidang, $I_1 = \\frac{1}{12}M(a^2 + b^2)$. Jika diputar di tepi sepanjang sisi $a$, jarak massa dari sumbu membentang sejauh $b$ seperti batang berporos di ujung, sehingga $I_2 = \\frac{1}{3}Mb^2$ (bukan $\\frac{1}{12}Ma^2$ yang merupakan salah cetak umum)."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "question": "Jika $I_{\\text{pm}}$ menyatakan momen inersia benda bermassa $M$ terhadap sumbu melalui pusat massanya, maka momen inersia terhadap sumbu sejajar baru yang berjarak $d$ dari pusat massa menurut **Teorema Sumbu Sejajar** adalah ...",
+        "options": {
+          "A": "$I = I_{\\text{pm}} + Md^2$",
+          "B": "$I = I_{\\text{pm}} - Md^2$",
+          "C": "$I = I_{\\text{pm}} + \\frac{1}{2}Md^2$",
+          "D": "$I = \\frac{1}{2}I_{\\text{pm}} + Md^2$",
+          "E": "$I = I_{\\text{pm}} + M^2 d$"
+        },
+        "answer": "A",
+        "hint": "Menggeser sumbu menjauhi pusat massa selalu memperbesar momen inersia dengan tambahan suku massa total kali kuadrat jarak geser.",
+        "explanation": "Teorema sumbu sejajar (Steiner) menyatakan $I = I_{\\text{pm}} + Md^2$, dengan syarat sumbu asal wajib melalui pusat massa dan sumbu baru sejajar dengan sumbu asal pada jarak $d$."
+      },
+      {
+        "id": 11,
+        "type": "multiple_choice",
+        "question": "Di antara seluruh sumbu putar yang saling sejajar pada suatu benda tegar, sumbu putar yang menghasilkan momen inersia paling kecil adalah sumbu yang ...",
+        "options": {
+          "A": "Berada tepat di tepi terluar benda agar jarak efektif menjadi maksimum",
+          "B": "Melewati titik tengah geometri benda walaupun distribusi massa tidak seragam",
+          "C": "Membentuk sudut $45^\\circ$ terhadap sumbu simetri utama benda tersebut",
+          "D": "Melewati titik pusat massa benda sehingga jarak geser sumbu $d = 0$",
+          "E": "Berimpit langsung dengan garis kerja gaya luar terbesar yang bekerja"
+        },
+        "answer": "D",
+        "hint": "Perhatikan sifat suku $+Md^2$ pada teorema sumbu sejajar karena massa $M > 0$ dan $d^2 \\ge 0$.",
+        "explanation": "Dari $I = I_{\\text{pm}} + Md^2$, suku $Md^2$ selalu bernilai tak negatif. Nilai minimum $I$ dicapai saat $d = 0$, yaitu tepat ketika sumbu putar melalui pusat massa."
+      },
+      {
+        "id": 12,
+        "type": "multiple_choice",
+        "question": "Bentuk hukum II Newton paling umum untuk gerak rotasi benda tegar terhadap sumbu tetap yang menghubungkan resultan torsi ($\\Sigma\\tau$), momen inersia ($I$), dan percepatan sudut ($\\alpha$) adalah ...",
+        "options": {
+          "A": "$\\Sigma\\tau = I \\cdot \\omega$",
+          "B": "$\\Sigma\\tau = \\frac{1}{2} I \\cdot \\alpha^2$",
+          "C": "$\\Sigma\\tau = I \\cdot \\alpha$",
+          "D": "$\\Sigma\\tau = \\frac{I}{\\alpha}$",
+          "E": "$\\Sigma\\tau = I \\cdot \\Delta\\theta$"
+        },
+        "answer": "C",
+        "hint": "Analogi langsung dari hukum II Newton translasi $\\Sigma F = m \\cdot a$.",
+        "explanation": "Dalam gerak rotasi, gaya analog dengan momen gaya ($\\Sigma\\tau$), massa analog dengan momen inersia ($I$), dan percepatan linear analog dengan percepatan sudut ($\\alpha$), sehingga $\\Sigma\\tau = I\\alpha$."
+      },
+      {
+        "id": 13,
+        "type": "multiple_choice",
+        "question": "Dalam hubungan besaran translasi dan rotasi pada lintasan melingkar berjari-jari $R$ (dengan sudut $\\theta$ dinyatakan dalam radian), pasangan persamaan yang **seluruhnya benar** adalah ...",
+        "options": {
+          "A": "$s = \\theta R$, $v = \\omega R$, dan $a_t = \\alpha R$",
+          "B": "$s = \\frac{\\theta}{R}$, $v = \\omega R$, dan $a_t = \\alpha R^2$",
+          "C": "$s = \\theta R$, $v = \\frac{\\omega}{R}$, dan $a_t = \\alpha R$",
+          "D": "$s = \\theta R^2$, $v = \\omega R$, dan $a_t = \\frac{\\alpha}{R}$",
+          "E": "$s = \\theta R$, $v = \\omega R^2$, dan $a_t = \\alpha R$"
+        },
+        "answer": "A",
+        "hint": "Setiap besaran linear di tepi lingkaran berbanding lurus langsung dengan $R$ (pangkat satu) kali besaran sudutnya.",
+        "explanation": "Untuk sudut dalam radian, panjang busur $s = \\theta R$. Penurunan terhadap waktu menghasilkan kelajuan tangensial $v = \\omega R$ dan percepatan tangensial $a_t = \\alpha R$."
+      },
+      {
+        "id": 14,
+        "type": "multiple_choice",
+        "question": "Pada suatu titik berjarak $R$ dari sumbu rotasi yang berputar dengan kecepatan sudut $\\omega$ dan percepatan sudut $\\alpha$, pasangan rumus percepatan tangensial ($a_t$) dan percepatan sentripetal ($a_s$) berturut-turut adalah ...",
+        "options": {
+          "A": "$a_t = \\omega^2 R$ dan $a_s = \\alpha R$",
+          "B": "$a_t = \\alpha R^2$ dan $a_s = \\omega R$",
+          "C": "$a_t = \\alpha R$ dan $a_s = \\omega R$",
+          "D": "$a_t = \\frac{\\alpha}{R}$ dan $a_s = \\frac{\\omega^2}{R}$",
+          "E": "$a_t = \\alpha R$ dan $a_s = \\omega^2 R$"
+        },
+        "answer": "E",
+        "hint": "Percepatan tangensial mengubah besar kelajuan, sedangkan percepatan sentripetal ($v^2/R$) mengubah arah gerak.",
+        "explanation": "Percepatan tangensial bergantung pada laju perubahan kelajuan sudut: $a_t = \\alpha R$. Percepatan sentripetal mengarah ke pusat: $a_s = \\frac{v^2}{R} = \\frac{(\\omega R)^2}{R} = \\omega^2 R$."
+      },
+      {
+        "id": 15,
+        "type": "multiple_choice",
+        "question": "Untuk mengonversi kelajuan putar sebuah poros dari $N\\text{ rpm}$ (putaran per menit) ke satuan SI kecepatan sudut $\\omega$ dalam $\\text{rad/s}$, rumus konversi yang benar adalah ...",
+        "options": {
+          "A": "$\\omega = N \\times \\frac{\\pi}{60}$",
+          "B": "$\\omega = N \\times \\frac{2\\pi}{60}$",
+          "C": "$\\omega = N \\times \\frac{60}{2\\pi}$",
+          "D": "$\\omega = N \\times \\frac{2\\pi}{3600}$",
+          "E": "$\\omega = N \\times 2\\pi \\times 60$"
+        },
+        "answer": "B",
+        "hint": "Satu putaran penuh setara dengan $2\\pi$ radian dan satu menit setara dengan $60$ detik.",
+        "explanation": "$1\\text{ rpm} = \\frac{1\\text{ putaran}}{1\\text{ menit}} = \\frac{2\\pi\\text{ rad}}{60\\text{ s}}$, sehingga $\\omega = N \\times \\frac{2\\pi}{60}\\text{ rad/s}$."
+      },
+      {
+        "id": 16,
+        "type": "multiple_choice",
+        "question": "Pasangan rumus energi kinetik translasi murni, energi kinetik rotasi murni, dan energi kinetik total benda menggelinding tanpa selip berturut-turut adalah ...",
+        "options": {
+          "A": "$\\frac{1}{2}mv^2$, $\\frac{1}{2}I\\alpha^2$, dan $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\alpha^2$",
+          "B": "$mv$, $I\\omega$, dan $mv + I\\omega$",
+          "C": "$\\frac{1}{2}mv^2$, $\\frac{1}{2}I\\omega^2$, dan $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$",
+          "D": "$\\frac{1}{2}mv^2$, $\\frac{1}{2}I\\omega^2$, dan $\\frac{1}{2}(m+I)v^2$",
+          "E": "$\\frac{1}{2}mv^2$, $I\\omega^2$, dan $\\frac{1}{2}mv^2 + I\\omega^2$"
+        },
+        "answer": "C",
+        "hint": "Ganti $m \\to I$ dan $v \\to \\omega$ pada energi kinetik translasi, lalu jumlahkan keduanya saat menggelinding.",
+        "explanation": "Energi kinetik translasi adalah $\\frac{1}{2}mv^2$ dan energi kinetik rotasi adalah $\\frac{1}{2}I\\omega^2$. Benda yang menggelinding melakukan gerak translasi pusat massa sekaligus rotasi terhadap pusat massa sehingga $E_{k,\\text{tot}} = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$."
+      },
+      {
+        "id": 17,
+        "type": "multiple_choice",
+        "question": "Pasangan rumus momentum sudut partikel titik terhadap titik acuan dan momentum sudut benda tegar simetris yang berotasi pada sumbu tetap adalah ...",
+        "options": {
+          "A": "$\\vec{L} = \\vec{p} \\times \\vec{r}$ dan $L = I\\alpha$",
+          "B": "$\\vec{L} = \\vec{r} \\times \\vec{p}$ dan $L = \\frac{1}{2}I\\omega^2$",
+          "C": "$\\vec{L} = \\vec{r} \\cdot \\vec{p}$ dan $L = I\\omega$",
+          "D": "$\\vec{L} = \\vec{r} \\times \\vec{F}$ dan $L = I\\omega$",
+          "E": "$\\vec{L} = \\vec{r} \\times \\vec{p}$ dan $L = I\\omega$"
+        },
+        "answer": "E",
+        "hint": "Ingat bahwa momentum sudut adalah 'momen dari momentum linear', analogi dari momen gaya $\\vec{r} \\times \\vec{F}$.",
+        "explanation": "Untuk partikel, $\\vec{L} = \\vec{r} \\times \\vec{p}$ (dengan $\\vec{p} = m\\vec{v}$). Untuk benda tegar berotasi terhadap sumbu simetri tetap, $L = I\\omega$ (analogi dari $p = mv$)."
+      },
+      {
+        "id": 18,
+        "type": "multiple_choice",
+        "question": "Satuan SI yang tepat dan setara untuk menyatakan besaran momentum sudut ($L = I\\omega$) adalah ...",
+        "options": {
+          "A": "$\\text{kg}\\cdot\\text{m}^2/\\text{s}$ atau $\\text{J}\\cdot\\text{s}$",
+          "B": "$\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$ atau $\\text{N}\\cdot\\text{m}$",
+          "C": "$\\text{kg}\\cdot\\text{m}/\\text{s}$ atau $\\text{N}\\cdot\\text{s}$",
+          "D": "$\\text{kg}\\cdot\\text{m}/\\text{s}^2$ atau $\\text{J}/\\text{m}$",
+          "E": "$\\text{kg}\\cdot\\text{m}^2/\\text{s}$ atau $\\text{J}/\\text{s}$"
+        },
+        "answer": "A",
+        "hint": "Kalikan satuan $I$ ($\\text{kg}\\cdot\\text{m}^2$) dengan $\\omega$ ($\\text{rad/s}$), lalu bandingkan dengan Joule ($\\text{kg}\\cdot\\text{m}^2/\\text{s}^2$).",
+        "explanation": "Dari $L = I\\omega$, satuannya adalah $\\text{kg}\\cdot\\text{m}^2 \\cdot \\text{s}^{-1} = \\text{kg}\\cdot\\text{m}^2/\\text{s}$. Karena $1\\text{ J} = 1\\text{ kg}\\cdot\\text{m}^2/\\text{s}^2$, maka $\\text{J}\\cdot\\text{s}$ identik dengan $\\text{kg}\\cdot\\text{m}^2/\\text{s}$."
+      },
+      {
+        "id": 19,
+        "type": "multiple_choice",
+        "question": "Bentuk hukum II Newton untuk rotasi yang paling mendasar apabila momen inersia benda dapat berubah selama berputar ($I \\ne \\text{konstan}$) adalah ...",
+        "options": {
+          "A": "$\\Sigma\\vec{\\tau} = \\vec{L} \\cdot \\Delta t$ sehingga torsi nol berarti $\\vec{L}$ bernilai nol",
+          "B": "$\\Sigma\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$ sehingga torsi nol berarti $\\vec{L}$ bernilai konstan",
+          "C": "$\\Sigma\\vec{F} = \\frac{d\\vec{L}}{dt}$ sehingga gaya nol berarti $\\vec{L}$ bernilai konstan",
+          "D": "$\\Sigma\\vec{\\tau} = \\frac{d\\vec{\\omega}}{dt}$ sehingga torsi nol berarti $I$ bernilai konstan",
+          "E": "$\\Sigma\\vec{\\tau} = \\frac{1}{2}\\frac{d\\vec{L}}{dt}$ sehingga torsi nol berarti $E_k$ bernilai konstan"
+        },
+        "answer": "B",
+        "hint": "Analogi langsung dari $\\Sigma\\vec{F} = \\frac{d\\vec{p}}{dt}$ dalam mekanika klasik.",
+        "explanation": "Secara umum $\\Sigma\\vec{\\tau} = \\frac{d\\vec{L}}{dt} = I\\frac{d\\vec{\\omega}}{dt} + \\vec{\\omega}\\frac{dI}{dt}$. Jika $\\Sigma\\vec{\\tau}_{\\text{luar}} = 0$, maka $\\frac{d\\vec{L}}{dt} = 0$ atau momentum sudut $\\vec{L}$ kekal."
+      },
+      {
+        "id": 20,
+        "type": "multiple_choice",
+        "question": "Hukum kekekalan momentum sudut ($I_1\\omega_1 = I_2\\omega_2$) berlaku secara sah pada suatu sistem berotasi apabila ...",
+        "options": {
+          "A": "Tidak ada gaya luar sama sekali yang bekerja pada sistem meskipun ada torsi luar",
+          "B": "Energi kinetik rotasi total sistem dijaga konstan sepanjang seluruh proses gerak",
+          "C": "Momen inersia sistem tidak mengalami perubahan bentuk selama rotasi berlangsung",
+          "D": "Resultan momen gaya luar terhadap poros putar bernilai nol ($\\Sigma\\vec{\\tau}_{\\text{luar}} = 0$)",
+          "E": "Tidak terdapat gaya gesekan internal di antara komponen-komponen dalam sistem"
+        },
+        "answer": "D",
+        "hint": "Gaya engsel atau gaya poros tetap boleh tak nol asalkan garis kerjanya melewati sumbu putar.",
+        "explanation": "Syarat mutlak kekekalan momentum sudut adalah $\\Sigma\\vec{\\tau}_{\\text{luar}} = 0$. Gaya luar di poros tidak membatalkan kekekalan $L$ karena lengannya nol, dan gesekan internal justru saling meniadakan dalam torsi sistem."
+      },
+      {
+        "id": 21,
+        "type": "multiple_choice",
+        "question": "Seorang atlet seluncur es berputar di lantai es licin lalu merapatkan kedua lengannya ke tubuh sehingga momen inersianya mengecil. Perubahan besaran momentum sudut ($L$), kecepatan sudut ($\\omega$), dan energi kinetik ($E_k$) adalah ...",
+        "options": {
+          "A": "$L$ tetap, $\\omega$ membesar, dan $E_k$ tetap karena tidak ada torsi luar",
+          "B": "$L$ membesar, $\\omega$ membesar, dan $E_k$ membesar akibat kerja otot",
+          "C": "$L$ tetap, $\\omega$ membesar, dan $E_k$ membesar akibat usaha internal otot",
+          "D": "$L$ tetap, $\\omega$ membesar, dan $E_k$ mengecil karena jari-jari mengecil",
+          "E": "$L$ mengecil, $\\omega$ tetap, dan $E_k$ mengecil sebanding dengan nilai $I$"
+        },
+        "answer": "C",
+        "hint": "Tulis energi kinetik rotasi dalam bentuk $E_k = \\frac{L^2}{2I}$ lalu amati apa yang terjadi saat $L$ konstan dan $I$ mengecil.",
+        "explanation": "Karena $\\Sigma\\tau_{\\text{luar}} = 0$, maka $L$ tetap sehingga $\\omega = L/I$ membesar. Namun, dari $E_k = \\frac{L^2}{2I}$, mengecilnya $I$ membuat $E_k$ **membesar**; tambahan energi berasal dari usaha internal otot penari saat menarik lengan ke dalam."
+      },
+      {
+        "id": 22,
+        "type": "multiple_choice",
+        "question": "Syarat kinematika agar sebuah roda berjari-jari $R$ mengalami gerak **menggelinding murni** (tanpa selip) di atas jalan datar yang diam adalah ...",
+        "options": {
+          "A": "$v_{\\text{pm}} = \\omega R$, $a_{\\text{pm}} = \\alpha R$, dan kelajuan titik singgung bawah $v_A = 0$",
+          "B": "$v_{\\text{pm}} = \\omega R$, $a_{\\text{pm}} = \\alpha R$, dan kelajuan titik singgung bawah $v_A = v_{\\text{pm}}$",
+          "C": "$v_{\\text{pm}} = 2\\omega R$, $a_{\\text{pm}} = 2\\alpha R$, dan kelajuan titik puncak atas $v_P = \\omega R$",
+          "D": "$v_{\\text{pm}} = \\frac{1}{2}\\omega R$, $a_{\\text{pm}} = \\alpha R$, dan kelajuan titik singgung bawah $v_A = 0$",
+          "E": "$v_{\\text{pm}} = \\omega R$, $a_{\\text{pm}} = \\alpha R$, dan kelajuan titik puncak atas $v_P = v_{\\text{pm}}$"
+        },
+        "answer": "A",
+        "hint": "Titik terbawah yang menyentuh jalan tidak bergeser relatif terhadap permukaan jalan yang diam.",
+        "explanation": "Menggelinding tanpa selip mensyaratkan kecepatan tangensial rotasi $\\omega R$ tepat mengimbangi translasi $v_{\\text{pm}}$ di titik singgung bawah sehingga $v_A = v_{\\text{pm}} - \\omega R = 0$, sedangkan di puncak $v_P = 2v_{\\text{pm}}$."
+      },
+      {
+        "id": 23,
+        "type": "multiple_choice",
+        "question": "Pada sebuah silinder pejal yang menggelinding murni (tanpa selip) menuruni bidang miring kasar, sifat gaya gesek yang bekerja di titik singgung permukaan adalah ...",
+        "options": {
+          "A": "Gaya gesek kinetis ($\\mu_k N$) yang selalu mengurangi energi mekanik total",
+          "B": "Gaya gesek statis yang selalu bernilai maksimum tepat sebesar $\\mu_s N$",
+          "C": "Gaya gesek bernilai nol karena benda tidak mengalami penggelinciran di lantai",
+          "D": "Gaya gesek kinetis yang searah dengan gerak turun pusat massa silinder",
+          "E": "Gaya gesek statis ($f_s \\le \\mu_s N$) yang memutar benda tanpa mendisipasi energi"
+        },
+        "answer": "E",
+        "hint": "Karena titik singgung diam sesaat terhadap bidang, gaya gesek yang bekerja tidak menyebabkan pergeseran selip.",
+        "explanation": "Pada gerak menggelinding tanpa selip, tidak ada gerakan relatif di titik kontak sehingga gaya geseknya bersifat **statis** ($f_s \\le \\mu_s N$). Karena titik tangkapnya diam sesaat, gaya gesek statis tidak melakukan usaha disipatif dan energi mekanik kekal."
+      },
+      {
+        "id": 24,
+        "type": "multiple_choice",
+        "question": "Sebuah benda bundar homogen dengan momen inersia $I = k m R^2$ dilepas dari diam hingga menggelinding murni menuruni bidang miring bersudut $\\theta$ setinggi $h$. Rumus percepatan linear ($a$) dan kelajuan di dasar ($v$) berturut-turut adalah ...",
+        "options": {
+          "A": "$a = g\\sin\\theta(1 + k)$ dan $v = \\sqrt{2gh(1 + k)}$",
+          "B": "$a = \\frac{g\\sin\\theta}{1 + k}$ dan $v = \\sqrt{\\frac{2gh}{1 + k}}$",
+          "C": "$a = \\frac{g\\sin\\theta}{1 - k}$ dan $v = \\sqrt{\\frac{2gh}{1 - k}}$",
+          "D": "$a = \\frac{g\\cos\\theta}{1 + k}$ dan $v = \\sqrt{\\frac{2gh}{k}}$",
+          "E": "$a = \\frac{k g\\sin\\theta}{1 + k}$ dan $v = \\sqrt{\\frac{2kgh}{1 + k}}$"
+        },
+        "answer": "B",
+        "hint": "Uji batas ketika benda berupa balok meluncur tanpa rotasi ($k = 0$): harus diperoleh $a = g\\sin\\theta$ dan $v = \\sqrt{2gh}$.",
+        "explanation": "Dari hukum kekekalan energi $mgh = \\frac{1}{2}mv^2(1 + k)$ diperoleh $v = \\sqrt{\\frac{2gh}{1+k}}$, dan dari dinamika rotasi $m g\\sin\\theta - k m a = m a$ diperoleh $a = \\frac{g\\sin\\theta}{1+k}$."
+      },
+      {
+        "id": 25,
+        "type": "multiple_choice",
+        "question": "Empat benda berjari-jari sama dilepas bersamaan dari puncak bidang miring kasar yang sama sehingga semuanya menggelinding murni: (1) Bola pejal, (2) Silinder pejal, (3) Bola tipis berongga, dan (4) Silinder tipis berongga. Urutan benda yang tiba di dasar dari **paling cepat ke paling lambat** adalah ...",
+        "options": {
+          "A": "Silinder berongga, bola berongga, silinder pejal, lalu bola pejal",
+          "B": "Bola pejal, bola berongga, silinder pejal, lalu silinder berongga",
+          "C": "Silinder pejal, bola pejal, silinder berongga, lalu bola berongga",
+          "D": "Bola pejal, silinder pejal, bola berongga, lalu silinder berongga",
+          "E": "Keempat benda tiba pada waktu bersamaan apabila bermassa sama"
+        },
+        "answer": "D",
+        "hint": "Benda dengan faktor inersia $k = \\frac{I}{mR^2}$ paling kecil mengalami percepatan paling besar.",
+        "explanation": "Percepatan sebanding dengan $\\frac{1}{1+k}$. Urutan koefisien $k$ dari terkecil ke terbesar adalah bola pejal ($0{,}40$) $<$ silinder pejal ($0{,}50$) $<$ bola berongga ($0{,}67$) $<$ silinder berongga ($1{,}00$), sehingga bola pejal paling cepat."
+      },
+      {
+        "id": 26,
+        "type": "multiple_choice",
+        "question": "Pada pesawat Atwood yang memakai katrol silinder pejal bermassa $M \\ne 0$ dan berputar tanpa selip dengan tali ringan, hubungan tegangan tali kiri ($T_1$) dan kanan ($T_2$) saat sistem dipercepat adalah ...",
+        "options": {
+          "A": "$T_1 = T_2$ sepanjang gerak karena tali penghubung bersifat ringan tak bermassa",
+          "B": "$T_1 \\ne T_2$ karena selisih $(T_1 - T_2)R$ menghasilkan torsi pemutar katrol",
+          "C": "$T_1 = T_2 + Mg$ karena gaya berat katrol langsung membebani tali di sisi turun",
+          "D": "$T_1 = \\frac{1}{2}T_2$ tepat pada saat benda mulai dilepaskan dari keadaan diam",
+          "E": "$T_1 + T_2 = Mg$ agar katrol tetap mempertahankan keseimbangan translasinya"
+        },
+        "answer": "B",
+        "hint": "Jika $T_1 = T_2$ dan katrol bermassa $M \\ne 0$, maka $\\Sigma\\tau = 0$ sehingga katrol tidak mungkin mengalami percepatan sudut $\\alpha$.",
+        "explanation": "Agar katrol bermomen inersia $I = \\frac{1}{2}MR^2$ mengalami percepatan sudut $\\alpha = a/R \\ne 0$, wajib terdapat resultan momen gaya $(T_1 - T_2)R = I\\alpha \\ne 0$, yang berarti $T_1 \\ne T_2$."
+      },
+      {
+        "id": 27,
+        "type": "multiple_choice",
+        "question": "Perbedaan mendasar antara syarat **keseimbangan partikel** dan syarat **keseimbangan benda tegar** pada bidang dua dimensi adalah ...",
+        "options": {
+          "A": "Keseimbangan partikel mensyaratkan $\\Sigma F_x = 0$ dan $\\Sigma F_y = 0$, sedangkan benda tegar menambahkan $\\Sigma\\tau = 0$",
+          "B": "Keseimbangan partikel mensyaratkan $\\Sigma\\tau = 0$, sedangkan benda tegar menambahkan $\\Sigma F_x = 0$ dan $\\Sigma F_y = 0$",
+          "C": "Keseimbangan partikel berlaku untuk benda diam saja, sedangkan benda tegar hanya untuk benda yang berputar",
+          "D": "Keseimbangan benda tegar cukup dipenuhi dengan syarat $\\Sigma\\tau = 0$ di pusat massa tanpa $\\Sigma F = 0$",
+          "E": "Keseimbangan partikel dan benda tegar keduanya cukup dipenuhi dengan syarat $\\Sigma F = 0$ saja"
+        },
+        "answer": "A",
+        "hint": "Partikel titik tidak memiliki ukuran geometri sehingga tidak mengenal gerak rotasi terhadap poros dirinya sendiri.",
+        "explanation": "Partikel dianggap titik massa sehingga hanya memiliki gerak translasi ($\\Sigma F_x = 0, \\Sigma F_y = 0$). Benda tegar memiliki dimensi ukuran sehingga dapat bertranslasi sekaligus berotasi, dan wajib memenuhi $\\Sigma\\tau = 0$."
+      },
+      {
+        "id": 28,
+        "type": "multiple_choice",
+        "question": "Suatu benda tegar memenuhi syarat keseimbangan $\\Sigma\\vec{F} = 0$ dan $\\Sigma\\vec{\\tau} = 0$. Keadaan gerak yang **mungkin** dimiliki benda tegar tersebut adalah ...",
+        "options": {
+          "A": "Benda pasti berada dalam keadaan diam mutlak ($v = 0$ dan $\\omega = 0$) tanpa perkecualian",
+          "B": "Benda boleh mengalami percepatan sudut konstan asalkan pusat massanya tetap diam",
+          "C": "Benda boleh diam atau bergerak dengan kecepatan linear dan kecepatan sudut tetap",
+          "D": "Benda dapat bergerak melingkar beraturan karena besar laju linearnya konstan",
+          "E": "Benda bergerak lurus berubah beraturan selama tidak mengalami putaran rotasi"
+        },
+        "answer": "C",
+        "hint": "Resultan gaya nol berarti percepatan $a = 0$, sedangkan resultan torsi nol berarti percepatan sudut $\\alpha = 0$.",
+        "explanation": "Syarat $\\Sigma F = 0$ dan $\\Sigma\\tau = 0$ hanya menyatakan $a = 0$ dan $\\alpha = 0$. Hal itu mencakup keseimbangan statis (diam total) serta keseimbangan dinamis (GLB dengan $v$ tetap dan/atau rotasi dengan $\\omega$ tetap)."
+      },
+      {
+        "id": 29,
+        "type": "multiple_choice",
+        "question": "Sepasang gaya sama besar, sejajar, tetapi berlawanan arah dengan garis kerja tidak segaris (kopel) bekerja pada sebuah batang bebas. Akibat fisis dari sistem gaya ini adalah ...",
+        "options": {
+          "A": "$\\Sigma\\vec{F} = 0$ dan $\\Sigma\\vec{\\tau} = 0$, sehingga batang tetap berada dalam keseimbangan statis",
+          "B": "$\\Sigma\\vec{F} \\ne 0$ dan $\\Sigma\\vec{\\tau} = 0$, sehingga batang hanya mengalami gerak translasi murni",
+          "C": "$\\Sigma\\vec{F} \\ne 0$ dan $\\Sigma\\vec{\\tau} \\ne 0$, sehingga pusat massa mengalami percepatan linear dan sudut",
+          "D": "$\\Sigma\\vec{F} = 0$ dan besar $\\Sigma\\vec{\\tau}$ bergantung penuh pada pemilihan letak titik poros",
+          "E": "$\\Sigma\\vec{F} = 0$ dan $\\Sigma\\vec{\\tau} \\ne 0$, sehingga batang berotasi murni tanpa translasi pusat massa"
+        },
+        "answer": "E",
+        "hint": "Jumlahkan kedua vektor gaya berlawanan tersebut terlebih dahulu, lalu hitung momen gaya gabungan di antara keduanya.",
+        "explanation": "Karena kedua gaya sama besar dan berlawanan arah, $\\Sigma\\vec{F} = 0$ sehingga $a_{\\text{pm}} = 0$. Namun garis kerjanya terpisah jarak $d$, sehingga menimbulkan momen kopel $\\tau = F d \\ne 0$ yang nilainya independen terhadap pilihan titik poros."
+      },
+      {
+        "id": 30,
+        "type": "multiple_choice",
+        "question": "Jika benda seimbang statis diberi gangguan kecil lalu dilepas: (1) titik beratnya naik dan kembali ke posisi semula, (2) titik beratnya turun dan makin menjauh, (3) tinggi titik berat tetap dan seimbang di posisi baru. Secara berurutan disebut keseimbangan ...",
+        "options": {
+          "A": "Labil, stabil, dan netral (indiferen)",
+          "B": "Stabil, indiferen, dan labil",
+          "C": "Netral, labil, dan stabil",
+          "D": "Stabil, labil, dan netral (indiferen)",
+          "E": "Dinamis, statis, dan rotasional"
+        },
+        "answer": "D",
+        "hint": "Bandingkan bola di dasar mangkuk, bola di puncak bukit, dan bola di atas lantai datar.",
+        "explanation": "Keseimbangan stabil memiliki energi potensial minimum (titik berat naik saat diganggu dan kembali), labil memiliki energi potensial maksimum (titik berat turun dan jatuh), sedangkan netral/indiferen mempertahankan tinggi titik berat."
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-02-torsi-dinamika",
+    "title": "Fisika — 02. Bab 1: Momen Gaya (Torsi) & Hukum II Newton Rotasi",
+    "category": "Fisika",
+    "description": "Latihan bertingkat mengenai perhitungan torsi, jebakan sudut terhadap garis normal, konversi satuan, batang bermassa vs ringan, vektor silang 2D, hingga dinamika katrol dan batang berengsel.",
+    "difficulty": "Menengah",
+    "estimated_minutes": 18,
+    "tags": ["Momen Gaya", "Torsi", "Hukum II Newton Rotasi"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Seorang mekanik membuka baut menggunakan kunci pas horizontal sepanjang $l = 25\\text{ cm}$. Ia menekan ujung kunci pas dengan gaya $F = 40\\text{ N}$ yang arahnya membentuk sudut $37^\\circ$ terhadap **garis normal** (garis vertikal yang tegak lurus batang kunci pas).",
+          "Diketahui $\\sin 37^\\circ = 0{,}6$ dan $\\cos 37^\\circ = 0{,}8$."
+        ],
+        "question": "Besar momen gaya yang dihasilkan terhadap pusat baut adalah ...",
+        "options": {
+          "A": "$6{,}0\\text{ N}\\cdot\\text{m}$",
+          "B": "$10{,}0\\text{ N}\\cdot\\text{m}$",
+          "C": "$600\\text{ N}\\cdot\\text{m}$",
+          "D": "$8{,}0\\text{ N}\\cdot\\text{m}$",
+          "E": "$800\\text{ N}\\cdot\\text{m}$"
+        },
+        "answer": "D",
+        "hint": "Perhatikan bahwa sudut $37^\\circ$ diukur terhadap garis tegak lurus batang, sehingga sudut terhadap batang adalah $53^\\circ$.",
+        "explanation": "Konversi panjang lengan $l = 25\\text{ cm} = 0{,}25\\text{ m}$. Komponen gaya yang tegak lurus gagang kunci pas adalah $F_{\\perp} = F\\cos 37^\\circ = F\\sin 53^\\circ = 40 \\times 0{,}8 = 32\\text{ N}$. Maka: $$\\tau = l F_{\\perp} = 0{,}25 \\times 32 = 8{,}0\\text{ N}\\cdot\\text{m}$$"
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang horizontal ringan (massa diabaikan) memiliki empat titik berurutan dari kiri ke kanan: **A**, **B**, **C**, dan **D** dengan jarak $AB = BC = CD = 1\\text{ m}$.",
+          "Empat gaya bekerja tegak lurus terhadap batang: $F_1 = 15\\text{ N}$ ke bawah di A, $F_2 = 20\\text{ N}$ ke atas di B, $F_3 = 30\\text{ N}$ ke bawah di C, dan $F_4 = 10\\text{ N}$ ke atas di D."
+        ],
+        "question": "Jika batang diputar terhadap **titik B** sebagai poros, besar dan arah momen gaya resultannya adalah ...",
+        "options": {
+          "A": "$5\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "B": "$5\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam",
+          "C": "$10\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam",
+          "D": "$15\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "E": "$25\\text{ N}\\cdot\\text{m}$ searah jarum jam"
+        },
+        "answer": "B",
+        "hint": "Titik A berada di sebelah kiri poros B, sehingga gaya ke bawah di titik A memutar batang berlawanan arah jarum jam.",
+        "explanation": "Dengan poros di B: $F_2$ tepat di poros ($\\tau_2 = 0$).\n- $F_1 = 15\\text{ N}$ ke bawah di kiri B ($r_1 = 1\\text{ m}$): berlawanan jarum jam (CCW) sebesar $15 \\times 1 = 15\\text{ N}\\cdot\\text{m}$.\n- $F_3 = 30\\text{ N}$ ke bawah di kanan B ($r_3 = 1\\text{ m}$): searah jarum jam (CW) sebesar $30 \\times 1 = 30\\text{ N}\\cdot\\text{m}$.\n- $F_4 = 10\\text{ N}$ ke atas di kanan B ($r_4 = 2\\text{ m}$): berlawanan jarum jam (CCW) sebesar $10 \\times 2 = 20\\text{ N}\\cdot\\text{m}$.\nResultan: $\\Sigma\\tau_B = (15 + 20)\\text{ CCW} - 30\\text{ CW} = 5\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam."
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Batang horizontal ringan AC memiliki titik B di tengah sehingga $AB = BC = 50\\text{ cm}$. Di titik A bekerja gaya vertikal ke atas $F_A = 12\\text{ N}$ dan di titik B bekerja gaya vertikal ke atas $F_B = 30\\text{ N}$.",
+          "Di titik C (ujung kanan) bekerja gaya $F_C = 20\\text{ N}$ miring ke arah kiri bawah yang membentuk sudut $37^\\circ$ terhadap batang horizontal AC ($\\sin 37^\\circ = 0{,}6;\\ \\cos 37^\\circ = 0{,}8$)."
+        ],
+        "question": "Besar dan arah momen gaya total batang terhadap poros di titik A adalah ...",
+        "options": {
+          "A": "$1{,}0\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "B": "$3{,}0\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "C": "$5{,}0\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam",
+          "D": "$27{,}0\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "E": "$3{,}0\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam"
+        },
+        "answer": "E",
+        "hint": "Konversikan $50\\text{ cm}$ ke meter dan urai $F_C$ menjadi komponen sejajar batang (melewati A) serta tegak lurus batang.",
+        "explanation": "Dengan $AB = 0{,}5\\text{ m}$ dan $AC = 1{,}0\\text{ m}$ serta poros di A:\n- $\\tau_A = 0$ (bekerja di poros).\n- $\\tau_B = 30 \\times 0{,}5 = 15{,}0\\text{ N}\\cdot\\text{m}$ berlawanan jarum jam (CCW).\n- Komponen tegak lurus $F_C$ adalah $20\\sin 37^\\circ = 12\\text{ N}$ ke bawah, sehingga $\\tau_C = 12 \\times 1{,}0 = 12{,}0\\text{ N}\\cdot\\text{m}$ searah jarum jam (CW).\nResultan: $\\Sigma\\tau_A = 15{,}0 - 12{,}0 = 3{,}0\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam."
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang horizontal **homogen bermassa $m = 4\\text{ kg}$** ($g = 10\\text{ m/s}^2$) memiliki panjang $L = 2\\text{ m}$ dan berengsel di ujung kiri A.",
+          "Pada jarak $0{,}5\\text{ m}$ dari A bekerja gaya vertikal ke bawah $F_1 = 10\\text{ N}$, sedangkan di ujung kanan B bekerja gaya vertikal ke atas $F_2 = 30\\text{ N}$."
+        ],
+        "question": "Momen gaya total yang bekerja pada batang terhadap engsel A adalah ...",
+        "options": {
+          "A": "$15\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam",
+          "B": "$15\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "C": "$25\\text{ N}\\cdot\\text{m}$ searah jarum jam",
+          "D": "$51\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam",
+          "E": "$55\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam"
+        },
+        "answer": "A",
+        "hint": "Berbeda dari batang ringan, di sini berat batang $W = mg$ bekerja tepat di pusat massanya ($r = L/2$).",
+        "explanation": "Berat batang $W = 4 \\times 10 = 40\\text{ N}$ ke bawah di tengah batang ($r_w = 1{,}0\\text{ m}$).\n- Torsi CW: $\\tau_1 + \\tau_w = 10(0{,}5) + 40(1{,}0) = 5 + 40 = 45\\text{ N}\\cdot\\text{m}$.\n- Torsi CCW: $\\tau_2 = 30(2{,}0) = 60\\text{ N}\\cdot\\text{m}$.\nResultan: $60 - 45 = 15\\text{ N}\\cdot\\text{m}$ berlawanan arah jarum jam."
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "question": "Sebuah gaya konstan $\\vec{F} = (4\\hat{i} + 6\\hat{j})\\text{ N}$ bekerja pada titik $P(2\\text{ m}, -1\\text{ m})$ terhadap sumbu putar yang melewati titik asal $O(0, 0)$. Vektor momen gaya terhadap titik O adalah ...",
+        "options": {
+          "A": "$+2\\hat{k}\\text{ N}\\cdot\\text{m}$",
+          "B": "$+8\\hat{k}\\text{ N}\\cdot\\text{m}$",
+          "C": "$+16\\hat{k}\\text{ N}\\cdot\\text{m}$",
+          "D": "$-8\\hat{k}\\text{ N}\\cdot\\text{m}$",
+          "E": "$-16\\hat{k}\\text{ N}\\cdot\\text{m}$"
+        },
+        "answer": "C",
+        "hint": "Gunakan determinan perkalian silang 2D: $\\vec{\\tau} = \\vec{r} \\times \\vec{F} = (x F_y - y F_x)\\hat{k}$.",
+        "explanation": "Dengan $\\vec{r} = (2\\hat{i} - 1\\hat{j})\\text{ m}$ dan $\\vec{F} = (4\\hat{i} + 6\\hat{j})\\text{ N}$: $$\\vec{\\tau} = ((2)(6) - (-1)(4))\\hat{k} = (12 + 4)\\hat{k} = +16\\hat{k}\\text{ N}\\cdot\\text{m}$$"
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah roda gila berbentuk silinder pejal ($I = \\frac{1}{2}MR^2$) bermassa $M = 8\\text{ kg}$ dan **diameter $d = 40\\text{ cm}$** mula-mula diam pada poros tetap tanpa gesekan.",
+          "Roda kemudian ditarik tali secara tangensial dengan gaya konstan $F = 16\\text{ N}$ tanpa selip selama selang waktu $t = 5\\text{ s}$."
+        ],
+        "question": "Percepatan sudut roda ($\\alpha$) dan kecepatan sudutnya setelah $5\\text{ s}$ ($\\omega$) berturut-turut adalah ...",
+        "options": {
+          "A": "$5\\text{ rad/s}^2$ dan $25\\text{ rad/s}$",
+          "B": "$10\\text{ rad/s}^2$ dan $50\\text{ rad/s}$",
+          "C": "$20\\text{ rad/s}^2$ dan $4\\text{ rad/s}$",
+          "D": "$20\\text{ rad/s}^2$ dan $100\\text{ rad/s}$",
+          "E": "$25\\text{ rad/s}^2$ dan $125\\text{ rad/s}$"
+        },
+        "answer": "D",
+        "hint": "Hati-hati bahwa $d = 40\\text{ cm}$ adalah diameter, sehingga jari-jarinya $R = 0{,}2\\text{ m}$.",
+        "explanation": "Jari-jari $R = 20\\text{ cm} = 0{,}2\\text{ m}$. Momen inersia $I = \\frac{1}{2}(8)(0{,}2)^2 = 0{,}16\\text{ kg}\\cdot\\text{m}^2$. Momen gaya $\\tau = F R = 16 \\times 0{,}2 = 3{,}2\\text{ N}\\cdot\\text{m}$. Maka $\\alpha = \\frac{\\tau}{I} = \\frac{3{,}2}{0{,}16} = 20\\text{ rad/s}^2$ dan $\\omega = \\omega_0 + \\alpha t = 0 + 20(5) = 100\\text{ rad/s}$."
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen bermassa $M = 3\\text{ kg}$ dan panjang $L = 1{,}2\\text{ m}$ berporos licin di salah satu ujungnya ($I = \\frac{1}{3}ML^2$). Batang mula-mula ditahan dalam posisi mendatar lalu dilepas sehingga mulai berayun turun di bawah pengaruh gravitasi ($g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Tepat sesaat setelah batang dilepaskan, percepatan sudut awal ($\\alpha$) dan percepatan linear ujung bebas batang ($a_{\\text{ujung}}$) adalah ...",
+        "options": {
+          "A": "$6{,}25\\text{ rad/s}^2$ dan $7{,}5\\text{ m/s}^2$",
+          "B": "$8{,}33\\text{ rad/s}^2$ dan $10{,}0\\text{ m/s}^2$",
+          "C": "$12{,}5\\text{ rad/s}^2$ dan $7{,}5\\text{ m/s}^2$",
+          "D": "$12{,}5\\text{ rad/s}^2$ dan $10{,}0\\text{ m/s}^2$",
+          "E": "$12{,}5\\text{ rad/s}^2$ dan $15{,}0\\text{ m/s}^2$"
+        },
+        "answer": "E",
+        "hint": "Gunakan $\\tau = Mg(L/2)$ dan $I = \\frac{1}{3}ML^2$, lalu jangan kaget jika $a_{\\text{ujung}} = \\alpha L$ melampaui percepatan gravitasi $g$.",
+        "explanation": "Momen gaya oleh berat batang di titik tengah: $\\tau = Mg\\frac{L}{2} = 30(0{,}6) = 18\\text{ N}\\cdot\\text{m}$. Momen inersia: $I = \\frac{1}{3}(3)(1{,}2)^2 = 1{,}44\\text{ kg}\\cdot\\text{m}^2$. Maka $\\alpha = \\frac{18}{1{,}44} = 12{,}5\\text{ rad/s}^2$, sehingga percepatan ujung batang $a_{\\text{ujung}} = \\alpha L = 12{,}5 \\times 1{,}2 = 15{,}0\\text{ m/s}^2$ (lebih besar dari $g$ karena batang menyalurkan gaya internal ke ujung)."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "question": "Sebuah cakram bermomen inersia $I = 0{,}5\\text{ kg}\\cdot\\text{m}^2$ berputar dengan kecepatan sudut awal $\\omega_0 = 20\\text{ rad/s}$, lalu direm dengan momen gaya gesek konstan $\\tau = 2\\text{ N}\\cdot\\text{m}$ hingga berhenti. Sudut total yang ditempuh cakram dan banyak putarannya selama pengereman adalah ...",
+        "options": {
+          "A": "$25\\text{ rad}$ dan $\\frac{25}{2\\pi}\\text{ putaran}$",
+          "B": "$50\\text{ rad}$ dan $\\frac{25}{\\pi}\\text{ putaran}$",
+          "C": "$50\\text{ rad}$ dan $\\frac{50}{\\pi}\\text{ putaran}$",
+          "D": "$50\\text{ rad}$ dan $25\\pi\\text{ putaran}$",
+          "E": "$100\\text{ rad}$ dan $\\frac{50}{\\pi}\\text{ putaran}$"
+        },
+        "answer": "B",
+        "hint": "Cari perlambatan sudut $\\alpha = -\\tau/I$, gunakan $\\omega^2 = \\omega_0^2 + 2\\alpha\\Delta\\theta$, lalu bagi $2\\pi$ untuk jumlah putaran.",
+        "explanation": "Perlambatan sudut $\\alpha = -\\frac{2}{0{,}5} = -4\\text{ rad/s}^2$. Saat berhenti ($\\omega = 0$): $0 = 20^2 + 2(-4)\\Delta\\theta \\implies \\Delta\\theta = \\frac{400}{8} = 50\\text{ rad}$. Banyak putaran $n = \\frac{\\Delta\\theta}{2\\pi} = \\frac{50}{2\\pi} = \\frac{25}{\\pi}\\text{ putaran}$."
+      },
+      {
+        "id": 9,
+        "type": "multiple_select",
+        "story": [
+          "Sebuah batang homogen bermassa $M$ dan panjang $L$ berada di atas meja horizontal **sangat licin** (tanpa engsel, dapat bergerak bebas di bidang datar) lalu dipukul sesaat secara horizontal tegak lurus batang pada jarak $d$ ($d \\ne 0$) dari pusat massanya oleh gaya sesaat $F$."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR** mengenai gerak sesaat batang setelah dipukul? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Pusat massa batang memperoleh percepatan linear sesaat $a_{\\text{pm}} = \\frac{F}{M}$ ke arah gaya $F$, terlepas dari nilai $d$",
+          "B": "Momen inersia rotasi murni batang terhadap pusat massanya adalah $I_{\\text{pm}} = \\frac{1}{12}ML^2$ sehingga $\\alpha = \\frac{12Fd}{ML^2}$",
+          "C": "Karena batang bebas tanpa engsel, resultan torsi terhadap pusat massa tetap nol jika $F$ tidak mengenai ujung",
+          "D": "Jika gaya $F$ bekerja tepat melalui pusat massa ($d = 0$), batang hanya bertranslasi murni tanpa percepatan sudut",
+          "E": "Saat berotasi sambil bertranslasi, batang otomatis berputar terhadap salah satu ujungnya sehingga $I = \\frac{1}{3}ML^2$"
+        },
+        "answer": ["A", "B", "D"],
+        "hint": "Pada benda bebas (tanpa poros engsel tetap), gerak umum selalu terurai menjadi translasi pusat massa dan rotasi murni mengelilingi pusat massa.",
+        "explanation": "1. **A benar**: Hukum II Newton translasi berlaku langsung pada pusat massa: $\\Sigma F = M a_{\\text{pm}} \\implies a_{\\text{pm}} = F/M$ untuk sembarang $d$.\n2. **B benar**: Benda bebas berotasi terhadap pusat massanya ($I_{\\text{pm}} = \\frac{1}{12}ML^2$), sehingga $\\tau_{\\text{pm}} = Fd = I_{\\text{pm}}\\alpha \\implies \\alpha = \\frac{12Fd}{ML^2}$.\n3. **C salah**: Torsi terhadap pusat massa $\\tau_{\\text{pm}} = Fd \\ne 0$ selama $d \\ne 0$.\n4. **D benar**: Saat $d = 0$, $\\tau_{\\text{pm}} = 0$ sehingga $\\alpha = 0$.\n5. **E salah**: Sumbu rotasi alami benda bebas adalah pusat massanya ($\\frac{1}{12}ML^2$), bukan ujungnya."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah katrol silinder pejal ($I = \\frac{1}{2}MR^2$) bermassa $M = 10\\text{ kg}$ dan jari-jari $R = 0{,}2\\text{ m}$ dipasang pada poros tetap horizontal.",
+          "Dua tali melilit katrol: sisi kanan ditarik vertikal ke bawah dengan gaya $F_1 = 50\\text{ N}$ dan sisi kiri ditarik vertikal ke bawah dengan gaya $F_2 = 20\\text{ N}$. Selain itu, terdapat **torsi gesekan poros** konstan $\\tau_f = 1{,}0\\text{ N}\\cdot\\text{m}$ yang selalu melawan putaran."
+        ],
+        "question": "Besar percepatan sudut katrol tersebut adalah ...",
+        "options": {
+          "A": "$25{,}0\\text{ rad/s}^2$",
+          "B": "$12{,}5\\text{ rad/s}^2$",
+          "C": "$30{,}0\\text{ rad/s}^2$",
+          "D": "$35{,}0\\text{ rad/s}^2$",
+          "E": "$65{,}0\\text{ rad/s}^2$"
+        },
+        "answer": "A",
+        "hint": "Torsi dari $F_1$ dan $F_2$ saling berlawanan arah putar, sedangkan torsi gesek mengurangi torsi penggerak bersih.",
+        "explanation": "Momen inersia katrol $I = \\frac{1}{2}(10)(0{,}2)^2 = 0{,}20\\text{ kg}\\cdot\\text{m}^2$. Torsi penggerak bersih searah jarum jam adalah $(F_1 - F_2)R = (50 - 20)(0{,}2) = 6{,}0\\text{ N}\\cdot\\text{m}$. Setelah dikurangi torsi gesek poros $\\tau_f = 1{,}0\\text{ N}\\cdot\\text{m}$, resultannya $\\Sigma\\tau = 5{,}0\\text{ N}\\cdot\\text{m}$. Maka: $$\\alpha = \\frac{5{,}0}{0{,}20} = 25{,}0\\text{ rad/s}^2$$"
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-03-momen-inersia",
+    "title": "Fisika — 03. Bab 2: Momen Inersia Partikel & Benda Tegar",
+    "category": "Fisika",
+    "description": "Latihan eskalasi momen inersia sistem partikel 1D dan 2D (Pythagoras), teorema sumbu sejajar, perbaikan rumus pelat segi empat, benda komposit berjari-jari tak diabaikan, cakram berlubang, dan massa sebanding volume.",
+    "difficulty": "Menengah - Sulit",
+    "estimated_minutes": 20,
+    "tags": ["Momen Inersia", "Teorema Sumbu Sejajar", "Benda Tegar"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah tongkat ringan sepanjang $2{,}5\\text{ m}$ yang massanya diabaikan menghubungkan tiga partikel: partikel $m_A = 4\\text{ kg}$ di ujung kiri A, partikel $m_B = 6\\text{ kg}$ berjarak $0{,}5\\text{ m}$ di kanan A, dan partikel $m_C = 3\\text{ kg}$ di ujung kanan C.",
+          "Sistem diputar terhadap sumbu tegak lurus tongkat di titik P yang berjarak **$1{,}0\\text{ m}$ dari ujung kanan C**."
+        ],
+        "question": "Besar momen inersia sistem terhadap sumbu P adalah ...",
+        "options": {
+          "A": "$12{,}25\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$13{,}50\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$18{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$15{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$20{,}25\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "C",
+        "hint": "Tentukan terlebih dahulu posisi poros P diukur dari ujung A ($2{,}5\\text{ m} - 1{,}0\\text{ m}$), lalu hitung jarak tiap partikel ke P.",
+        "explanation": "Titik P terletak $2{,}5 - 1{,}0 = 1{,}5\\text{ m}$ dari A. Jarak tiap partikel ke P: $r_A = 1{,}5\\text{ m}$, $r_B = 1{,}5 - 0{,}5 = 1{,}0\\text{ m}$, dan $r_C = 1{,}0\\text{ m}$. Maka: $$I_P = 4(1{,}5)^2 + 6(1{,}0)^2 + 3(1{,}0)^2 = 9 + 6 + 3 = 18{,}00\\text{ kg}\\cdot\\text{m}^2$$"
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Empat bola kecil (dianggap massa titik) dihubungkan pada satu batang ringan tak bermassa secara berurutan dari kiri ke kanan: $m_1 = 2\\text{ kg}$, $m_2 = 3\\text{ kg}$, $m_3 = 2\\text{ kg}$, dan $m_4 = 4\\text{ kg}$. Jarak antarpartikel berdekatan seragam sebesar $50\\text{ cm}$."
+        ],
+        "question": "Jika sistem diputar dengan sumbu tegak lurus batang yang tepat melewati **bola $m_2$**, besar momen inersianya adalah ...",
+        "options": {
+          "A": "$2{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$5{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$6{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$8{,}00\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$11{,}75\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "B",
+        "hint": "Konversikan $50\\text{ cm} = 0{,}5\\text{ m}$ dan ingat bahwa partikel pada sumbu putar memiliki $r_2 = 0$.",
+        "explanation": "Jarak ke sumbu $m_2$: $r_1 = 0{,}5\\text{ m}$, $r_2 = 0$, $r_3 = 0{,}5\\text{ m}$, dan $r_4 = 1{,}0\\text{ m}$. Sehingga: $$I = 2(0{,}5)^2 + 3(0)^2 + 2(0{,}5)^2 + 4(1{,}0)^2 = 0{,}50 + 0 + 0{,}50 + 4{,}00 = 5{,}00\\text{ kg}\\cdot\\text{m}^2$$"
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Pada bidang koordinat Kartesius $XOY$ terdapat empat massa titik: partikel $m_1 = 2m$ di titik $(3a, 0)$, partikel $m_2 = 4m$ di titik $(0, -5a)$, partikel $m_3 = 3m$ di kuadran I terhubung garis miring sepanjang $5a$ dari $(0,0)$ dan berjarak vertikal $4a$ dari sumbu X, serta partikel $m_4 = m$ di titik $(-4a, 3a)$."
+        ],
+        "question": "Jika seluruh sistem diputar terhadap **sumbu X**, besar momen inersia sistem adalah ...",
+        "options": {
+          "A": "$61ma^2$",
+          "B": "$136ma^2$",
+          "C": "$175ma^2$",
+          "D": "$157ma^2$",
+          "E": "$218ma^2$"
+        },
+        "answer": "D",
+        "hint": "Ketika diputar terhadap sumbu X, jarak tegak lurus tiap partikel ke sumbu putar adalah koordinat $|y|$, bukan $|x|$.",
+        "explanation": "Jarak tegak lurus ke sumbu X ($r_i = |y_i|$): $y_1 = 0$ (berada di sumbu X), $y_2 = 5a$, $y_3 = 4a$ (sudah diketahui sebagai jarak vertikal ke sumbu X), dan $y_4 = 3a$. Maka: $$I_X = 2m(0)^2 + 4m(5a)^2 + 3m(4a)^2 + m(3a)^2 = 0 + 100ma^2 + 48ma^2 + 9ma^2 = 157ma^2$$"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen AB bermassa $3\\text{ kg}$ memiliki momen inersia sebesar $I_A = 24\\text{ kg}\\cdot\\text{m}^2$ saat diputar tegak lurus batang melalui ujung A."
+        ],
+        "question": "Jika batang yang sama diputar tegak lurus melalui titik P yang berjarak $\\frac{1}{4}L$ dari ujung A, momen inersianya menjadi ...",
+        "options": {
+          "A": "$10{,}5\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$6{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$12{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$15{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$19{,}5\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "A",
+        "hint": "Jangan melakukan rata-rata linear antara ujung dan pusat! Gunakan $I_{\\text{pusat}} = \\frac{1}{4}I_A$, lalu geser sejauh $d = L/4$ memakai teorema sumbu sejajar.",
+        "explanation": "Dari $I_A = \\frac{1}{3}ML^2 = 24$, didapat $ML^2 = 72$. Momen inersia pusat massa adalah $I_{\\text{pusat}} = \\frac{1}{12}ML^2 = 6\\text{ kg}\\cdot\\text{m}^2$. Jarak titik P ke pusat massa ($L/2$) adalah $d = \\frac{1}{2}L - \\frac{1}{4}L = \\frac{1}{4}L$, sehingga: $$I_P = I_{\\text{pusat}} + M\\left(\\frac{L}{4}\\right)^2 = 6 + \\frac{72}{16} = 6 + 4{,}5 = 10{,}5\\text{ kg}\\cdot\\text{m}^2$$"
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah pelat tipis segi empat homogen bermassa $M = 6\\text{ kg}$ memiliki lebar $a = 0{,}4\\text{ m}$ dan panjang $b = 1{,}0\\text{ m}$. Pelat tersebut diputar mengelilingi sumbu pada bidang pelat yang berimpit tepat dengan **tepi sisi pendek $a$**."
+        ],
+        "question": "Besar momen inersia pelat terhadap sumbu tepi tersebut adalah ...",
+        "options": {
+          "A": "$0{,}08\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$0{,}32\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$0{,}50\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$0{,}58\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$2{,}00\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "E",
+        "hint": "Massa pelat membentang dari $0$ hingga $b = 1{,}0\\text{ m}$ menjauhi sumbu putar di tepi sisi $a$.",
+        "explanation": "Karena sumbu putar berimpit dengan sisi $a$, pelat membentang sejauh $b$ secara tegak lurus terhadap sumbu putar. Rumus yang benar adalah $I = \\frac{1}{3}Mb^2$ (bukan $\\frac{1}{12}Ma^2$), sehingga: $$I = \\frac{1}{3}(6)(1{,}0)^2 = 2{,}00\\text{ kg}\\cdot\\text{m}^2$$"
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah barbel simetris tersusun atas dua bola pejal identik (masing-masing bermassa $m = 5\\text{ kg}$ dan **jari-jari $R = 0{,}2\\text{ m}$** yang tidak diabaikan) disambung pada kedua ujung sebuah batang silinder homogen bermassa $M_b = 3\\text{ kg}$ dan panjang $L = 1{,}2\\text{ m}$.",
+          "Jarak dari pusat batang ke pusat masing-masing bola adalah $d = 0{,}8\\text{ m}$."
+        ],
+        "question": "Jika barbel diputar melalui pusat batang tegak lurus terhadap batang, momen inersia total sistem adalah ...",
+        "options": {
+          "A": "$6{,}40\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$6{,}56\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$6{,}92\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$6{,}76\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$8{,}00\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "C",
+        "hint": "Hitung $I$ batang di pusatnya, lalu gunakan teorema sumbu sejajar $\\frac{2}{5}mR^2 + md^2$ untuk masing-masing bola.",
+        "explanation": "1. Batang di pusat: $I_b = \\frac{1}{12}M_b L^2 = \\frac{1}{12}(3)(1{,}2)^2 = 0{,}36\\text{ kg}\\cdot\\text{m}^2$.\n2. Dua bola pejal ($\\frac{2}{5}mR^2 + md^2$): $I_{\\text{bola}} = 2\\left[\\frac{2}{5}(5)(0{,}2)^2 + 5(0{,}8)^2\\right] = 2(0{,}08 + 3{,}20) = 6{,}56\\text{ kg}\\cdot\\text{m}^2$.\nTotal: $I = 0{,}36 + 6{,}56 = 6{,}92\\text{ kg}\\cdot\\text{m}^2$."
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah cakram silinder pejal homogen berjari-jari $R = 0{,}4\\text{ m}$ mula-mula bermassa $M_0 = 16\\text{ kg}$ sebelum dilubangi. Tepat di bagian tengah cakram dibuat lubang lingkaran konsentris berjari-jari $r = 0{,}2\\text{ m}$."
+        ],
+        "question": "Besar momen inersia cakram berlubang yang tersisa terhadap sumbu pusatnya adalah ...",
+        "options": {
+          "A": "$0{,}72\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$0{,}96\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$1{,}12\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$1{,}20\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$1{,}36\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "D",
+        "hint": "Massa bagian yang dibuang sebanding dengan luasnya ($\\pi r^2$), lalu kurangkan $I_{\\text{utuh}} - I_{\\text{lubang}}$.",
+        "explanation": "Perbandingan massa lubang adalah $(r/R)^2 = (0{,}2/0{,}4)^2 = \\frac{1}{4}$, sehingga $m_{\\text{lubang}} = \\frac{1}{4}(16) = 4\\text{ kg}$.\n- $I_0 = \\frac{1}{2}(16)(0{,}4)^2 = 1{,}28\\text{ kg}\\cdot\\text{m}^2$.\n- $I_{\\text{lubang}} = \\frac{1}{2}(4)(0{,}2)^2 = 0{,}08\\text{ kg}\\cdot\\text{m}^2$.\nMaka $I_{\\text{sisa}} = 1{,}28 - 0{,}08 = 1{,}20\\text{ kg}\\cdot\\text{m}^2$ (setara $\\frac{1}{2}M_{\\text{sisa}}(R^2+r^2)$)."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "question": "Dua silinder pejal homogen A dan B terbuat dari **jenis bahan yang sama** dan memiliki **ketebalan yang sama**, namun jari-jari silinder B dua kali jari-jari silinder A ($R_B = 2 R_A$). Perbandingan momen inersia terhadap sumbu simetrinya ($I_A : I_B$) adalah ...",
+        "options": {
+          "A": "$1 : 2$",
+          "B": "$1 : 4$",
+          "C": "$1 : 8$",
+          "D": "$1 : 32$",
+          "E": "$1 : 16$"
+        },
+        "answer": "E",
+        "hint": "Hati-hati! Massa kedua silinder TIDAK sama karena terbuat dari bahan sejenis dengan ketebalan sama ($M = \\rho \\pi R^2 h$).",
+        "explanation": "Karena massa jenis $\\rho$ dan tebal $h$ sama, massa silinder sebanding dengan kuadrat jari-jari ($M = \\rho\\pi R^2 h \\propto R^2$). Maka momen inersia $I = \\frac{1}{2}MR^2 \\propto R^4$, sehingga $I_A : I_B = 1 : 2^4 = 1 : 16$."
+      },
+      {
+        "id": 9,
+        "type": "multiple_select",
+        "story": [
+          "Sebuah bola pejal homogen bermassa $M$ dan jari-jari $R$ memiliki momen inersia terhadap pusat massanya $I_{\\text{pm}} = \\frac{2}{5}MR^2$."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR**? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Jika diputar terhadap sumbu garis singgung di permukaannya, momen inersia bola pejal menjadi $\\frac{7}{5}MR^2$",
+          "B": "Jika bola dimampatkan tanpa mengubah massa hingga jari-jarinya menjadi setengah semula, momen inersia pusatnya menjadi seperempat semula",
+          "C": "Pada massa $M$ dan jari-jari $R$ sama, cincin tipis mempunyai momen inersia lebih kecil daripada bola tipis berongga",
+          "D": "Jika massa dan jari-jari bola pejal masing-masing digandakan dua kali lipat bersamaan, momen inersianya menjadi empat kali semula",
+          "E": "Penggeseran sumbu putar sejajar sejauh $R$ dari pusat massa selalu menambah nilai $I$ sebesar $MR^2$ apa pun bentuk bendanya"
+        },
+        "answer": ["A", "B", "E"],
+        "hint": "Periksa hubungan $I \\propto M R^2$ secara kuadratik pada $R$, dan bandingkan koefisien $MR^2$ cincin vs bola berongga.",
+        "explanation": "1. **A benar**: $I = \\frac{2}{5}MR^2 + MR^2 = \\frac{7}{5}MR^2$.\n2. **B benar**: Dengan $M$ tetap dan $R' = R/2$, $I' \\propto (1/2)^2 = 1/4$ semula.\n3. **C salah**: Cincin tipis $MR^2$ lebih besar daripada bola berongga $\\frac{2}{3}MR^2$.\n4. **D salah**: Jika $M' = 2M$ dan $R' = 2R$, maka $I' = 2 \\times 2^2 I = 8I$ (bukan $4I$).\n5. **E benar**: Menurut teorema sumbu sejajar, tambahan $+Md^2 = +MR^2$ hanya bergantung pada massa total dan jarak geser."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah kawat tipis homogen bermassa total $M = 9\\text{ kg}$ dan panjang total $L = 3\\text{ m}$ ditekuk tepat $90^\\circ$ membentuk huruf **L** dengan lengan pertama $L_1 = 1\\text{ m}$ dan lengan kedua $L_2 = 2\\text{ m}$."
+        ],
+        "question": "Jika kawat berbentuk huruf L tersebut diputar mengelilingi **sumbu yang berimpit dengan lengan $L_1$**, besar momen inersianya adalah ...",
+        "options": {
+          "A": "$2{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "B": "$8{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "C": "$6{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "D": "$12{,}0\\text{ kg}\\cdot\\text{m}^2$",
+          "E": "$27{,}0\\text{ kg}\\cdot\\text{m}^2$"
+        },
+        "answer": "B",
+        "hint": "Hanya lengan $L_2$ yang berjarak dari sumbu putar, dan massanya hanyalah porsi $\\frac{L_2}{L}$ dari massa total kawat.",
+        "explanation": "Rapat massa kawat seragam: $\\lambda = \\frac{9}{3} = 3\\text{ kg/m}$. Lengan $L_1 = 1\\text{ m}$ ($m_1 = 3\\text{ kg}$) berimpit tepat pada sumbu putar ($r = 0 \\implies I_1 = 0$). Lengan $L_2 = 2\\text{ m}$ memiliki massa $m_2 = 3 \\times 2 = 6\\text{ kg}$ dan berujung di sumbu putar, sehingga: $$I = \\frac{1}{3}m_2 L_2^2 = \\frac{1}{3}(6)(2)^2 = 8{,}0\\text{ kg}\\cdot\\text{m}^2$$"
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-04-momentum-sudut",
+    "title": "Fisika — 04. Bab 3: Momentum Sudut & Hukum Kekekalan",
+    "category": "Fisika",
+    "description": "Latihan momentum sudut gerak lurus, jebakan redaksi persentase penari es, penggabungan piringan beda jari-jari serta energi hilang, pelompat tangensial, tumbukan peluru pada batang, impuls sudut, dan bintang menyusut.",
+    "difficulty": "Menengah - Sulit",
+    "estimated_minutes": 20,
+    "tags": ["Momentum Sudut", "Hukum Kekekalan", "Tumbukan Rotasi"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "question": "Sebuah partikel bermassa $m = 2\\text{ kg}$ bergerak **lurus** dengan kelajuan konstan $v = 5\\text{ m/s}$ sejajar sumbu X ke kanan sepanjang garis $y = 4\\text{ m}$. Tepat saat partikel melewati titik $(3\\text{ m}, 4\\text{ m})$, besar momentum sudutnya terhadap titik asal $O(0,0)$ adalah ...",
+        "options": {
+          "A": "$10\\text{ kg}\\cdot\\text{m}^2/\\text{s}$",
+          "B": "$20\\text{ kg}\\cdot\\text{m}^2/\\text{s}$",
+          "C": "$30\\text{ kg}\\cdot\\text{m}^2/\\text{s}$",
+          "D": "$40\\text{ kg}\\cdot\\text{m}^2/\\text{s}$",
+          "E": "$50\\text{ kg}\\cdot\\text{m}^2/\\text{s}$"
+        },
+        "answer": "D",
+        "hint": "Meskipun lintasannya lurus, terhadap titik asal O di luar garis gerak berlaku $L = r_{\\perp} m v$.",
+        "explanation": "Lengan tegak lurus dari titik asal $O(0,0)$ menuju garis lintas $y = 4\\text{ m}$ adalah $r_{\\perp} = y = 4\\text{ m}$ (bukan $r = 5\\text{ m}$). Maka besar momentum sudutnya: $$L = r_{\\perp} m v = 4 \\times 2 \\times 5 = 40\\text{ kg}\\cdot\\text{m}^2/\\text{s}$$"
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Seorang atlet seluncur es berputar di lantai es licin dengan kecepatan sudut awal $\\omega_1 = 6{,}0\\text{ rad/s}$ saat lengannya terentang.",
+          "Ia kemudian menarik lengan dan kakinya merapat ke tubuh sehingga momen inersianya **berkurang sebesar $40\\%$ dari momen inersia semula**."
+        ],
+        "question": "Kecepatan sudut putarannya sekarang menjadi ...",
+        "options": {
+          "A": "$3{,}60\\text{ rad/s}$",
+          "B": "$7{,}75\\text{ rad/s}$",
+          "C": "$10{,}0\\text{ rad/s}$",
+          "D": "$8{,}40\\text{ rad/s}$",
+          "E": "$15{,}0\\text{ rad/s}$"
+        },
+        "answer": "C",
+        "hint": "Bedakan 'berkurang 40%' ($I_2 = I_1 - 0{,}4 I_1 = 0{,}6 I_1$) dengan 'menjadi 40%'.",
+        "explanation": "Karena berkurang $40\\%$, maka $I_2 = (1 - 0{,}40)I_1 = 0{,}60 I_1$. Dari kekekalan momentum sudut $I_1\\omega_1 = I_2\\omega_2$: $$\\omega_2 = \\frac{I_1 \\times 6{,}0}{0{,}60 I_1} = 10{,}0\\text{ rad/s}$$"
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Piringan cakram pejal homogen A bermassa $600\\text{ gram}$ dan jari-jari $20\\text{ cm}$ berputar bebas di poros vertikal licin dengan kecepatan sudut $45\\text{ rad/s}$.",
+          "Dari atas, piringan pejal homogen B yang mula-mula diam dengan massa $300\\text{ gram}$ dan jari-jari sama ($20\\text{ cm}$) dijatuhkan tepat sepusat ke atas piringan A sehingga keduanya berputar bersama."
+        ],
+        "question": "Kecepatan sudut gabungan kedua piringan menjadi ...",
+        "options": {
+          "A": "$15{,}0\\text{ rad/s}$",
+          "B": "$30{,}0\\text{ rad/s}$",
+          "C": "$22{,}5\\text{ rad/s}$",
+          "D": "$36{,}7\\text{ rad/s}$",
+          "E": "$40{,}0\\text{ rad/s}$"
+        },
+        "answer": "B",
+        "hint": "Karena kedua cakram berbentuk sama dan berjari-jari sama, $I \\propto m$, lalu terapkan $I_A\\omega_A = (I_A + I_B)\\omega'$.",
+        "explanation": "Karena $I = \\frac{1}{2}mR^2$ dengan $R_A = R_B$, rasio momen inersia sama dengan rasio massa. Dari kekekalan momentum sudut: $$\\omega' = \\frac{m_A}{m_A + m_B}\\omega_A = \\frac{600}{600 + 300} \\times 45 = \\frac{2}{3} \\times 45 = 30{,}0\\text{ rad/s}$$"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Cakram pejal 1 bermassa $m_1 = 2\\text{ kg}$ dan jari-jari $R_1 = 0{,}2\\text{ m}$ berputar pada poros vertikal licin dengan $\\omega_1 = 25\\text{ rad/s}$.",
+          "Cakram pejal 2 (mula-mula diam) memiliki massa yang sama ($m_2 = 2\\text{ kg}$) tetapi berjari-jari **$R_2 = 0{,}4\\text{ m}$**, lalu dijatuhkan secara koaksial ke atas cakram 1 hingga akhirnya berputar bersama."
+        ],
+        "question": "Kecepatan sudut akhir gabungan ($\\omega'$) dan perubahan energi kinetik rotasi total sistem adalah ...",
+        "options": {
+          "A": "$\\omega' = 5{,}0\\text{ rad/s}$ dan energi kinetik berkurang $2{,}5\\text{ J}$",
+          "B": "$\\omega' = 5{,}0\\text{ rad/s}$ dan energi kinetik bertambah $10{,}0\\text{ J}$",
+          "C": "$\\omega' = 8{,}3\\text{ rad/s}$ dan energi kinetik berkurang $8{,}3\\text{ J}$",
+          "D": "$\\omega' = 12{,}5\\text{ rad/s}$ dan energi kinetik berkurang $6{,}25\\text{ J}$",
+          "E": "$\\omega' = 5{,}0\\text{ rad/s}$ dan energi kinetik berkurang $10{,}0\\text{ J}$"
+        },
+        "answer": "E",
+        "hint": "Meskipun $m_1 = m_2$, jari-jari keduanya berbeda sehingga $I_2 = 4 I_1$. Selain itu, peristiwa ini bersifat tak lenting.",
+        "explanation": "$I_1 = \\frac{1}{2}(2)(0{,}2)^2 = 0{,}04\\text{ kg}\\cdot\\text{m}^2$ dan $I_2 = \\frac{1}{2}(2)(0{,}4)^2 = 0{,}16\\text{ kg}\\cdot\\text{m}^2$.\n1. Kekekalan momentum sudut: $0{,}04(25) = (0{,}04 + 0{,}16)\\omega' \\implies \\omega' = \\frac{1{,}00}{0{,}20} = 5{,}0\\text{ rad/s}$.\n2. Energi awal $E_{k1} = \\frac{1}{2}(0{,}04)(25)^2 = 12{,}5\\text{ J}$ dan energi akhir $E_{k2} = \\frac{1}{2}(0{,}20)(5{,}0)^2 = 2{,}5\\text{ J}$, sehingga energi kinetik berkurang $10{,}0\\text{ J}$ menjadi kalor."
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah komidi putar (cakram horizontal) dengan momen inersia $I_k = 400\\text{ kg}\\cdot\\text{m}^2$ dan jari-jari $R = 2{,}0\\text{ m}$ berputar bebas pada poros licin dengan kecepatan sudut $\\omega_1 = 3{,}0\\text{ rad/s}$.",
+          "Seorang anak bermassa $m = 50\\text{ kg}$ awalnya berdiri tepat di **pusat** komidi putar, kemudian berjalan pelan menuju **tepi terluar** ($r = 2{,}0\\text{ m}$)."
+        ],
+        "question": "Kecepatan sudut komidi putar setelah anak tiba di tepi adalah ...",
+        "options": {
+          "A": "$2{,}00\\text{ rad/s}$",
+          "B": "$2{,}40\\text{ rad/s}$",
+          "C": "$2{,}67\\text{ rad/s}$",
+          "D": "$4{,}50\\text{ rad/s}$",
+          "E": "$6{,}00\\text{ rad/s}$"
+        },
+        "answer": "A",
+        "hint": "Perlakukan anak sebagai partikel titik dengan tambahan momen inersia $mR^2$ saat di tepi.",
+        "explanation": "Awalnya anak di pusat ($r_1 = 0$) sehingga $I_1 = 400\\text{ kg}\\cdot\\text{m}^2$. Di tepi ($r_2 = 2{,}0\\text{ m}$), $I_2 = 400 + 50(2{,}0)^2 = 600\\text{ kg}\\cdot\\text{m}^2$. Maka: $$\\omega_2 = \\frac{I_1\\omega_1}{I_2} = \\frac{400 \\times 3{,}0}{600} = 2{,}00\\text{ rad/s}$$"
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah piringan horizontal bermomen inersia $I = 300\\text{ kg}\\cdot\\text{m}^2$ dan jari-jari $R = 2{,}0\\text{ m}$ berputar bebas searah jarum jam dengan $\\omega_0 = 2{,}0\\text{ rad/s}$ sambil membawa seorang anak bermassa $m = 50\\text{ kg}$ di tepinya.",
+          "Tiba-tiba anak tersebut melompat **searah gerak putar tepi piringan** secara tangensial dengan kelajuan $v = 13\\text{ m/s}$ relatif terhadap **tanah**."
+        ],
+        "question": "Kecepatan sudut dan arah putar piringan tepat setelah anak melompat adalah ...",
+        "options": {
+          "A": "$1{,}0\\text{ rad/s}$ searah putaran awal",
+          "B": "$1{,}0\\text{ rad/s}$ berlawanan arah putaran awal",
+          "C": "$2{,}3\\text{ rad/s}$ berlawanan arah putaran awal",
+          "D": "$3{,}3\\text{ rad/s}$ searah putaran awal",
+          "E": "$7{,}7\\text{ rad/s}$ searah putaran awal"
+        },
+        "answer": "B",
+        "hint": "Anak tetap membawa momentum sudut $L_{\\text{anak}} = m v R$ terhadap poros setelah melompat.",
+        "explanation": "Ambil arah searah jarum jam (CW) bernilai positif.\n- Sebelum melompat: $L_{\\text{awal}} = (I + mR^2)\\omega_0 = (300 + 50 \\times 2^2)(2) = 1000\\text{ kg}\\cdot\\text{m}^2/\\text{s}$.\n- Setelah melompat, anak membawa $L_{\\text{anak}} = mvR = 50(13)(2) = +1300\\text{ kg}\\cdot\\text{m}^2/\\text{s}$.\nKekekalan $L$: $1000 = 300\\omega' + 1300 \\implies \\omega' = -1{,}0\\text{ rad/s}$ ($1{,}0\\text{ rad/s}$ berlawanan arah putaran awal)."
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen bermassa $M = 6\\text{ kg}$ dan panjang $L = 1{,}0\\text{ m}$ digantung vertikal bebas pada engsel licin di ujung atasnya ($I_{\\text{batang}} = \\frac{1}{3}ML^2$).",
+          "Sebutir peluru bermassa $m = 0{,}5\\text{ kg}$ ditembakkan horizontal dengan kelajuan $v = 15\\text{ m/s}$ mengenai tepat **ujung bawah** batang dan bersarang di dalamnya."
+        ],
+        "question": "Besar kecepatan sudut sistem sesaat setelah peluru bersarang adalah ...",
+        "options": {
+          "A": "$1{,}15\\text{ rad/s}$",
+          "B": "$3{,}75\\text{ rad/s}$",
+          "C": "$3{,}00\\text{ rad/s}$",
+          "D": "$6{,}71\\text{ rad/s}$",
+          "E": "$7{,}50\\text{ rad/s}$"
+        },
+        "answer": "C",
+        "hint": "Momentum linear tidak kekal karena ada gaya impulsif engsel, tetapi momentum sudut terhadap engsel kekal (dan $I_{\\text{total}}$ mencakup peluru $mL^2$).",
+        "explanation": "Momentum sudut awal terhadap engsel atas: $L_{\\text{awal}} = mvL = 0{,}5(15)(1{,}0) = 7{,}5\\text{ kg}\\cdot\\text{m}^2/\\text{s}$. Momen inersia gabungan: $I_{\\text{tot}} = \\frac{1}{3}ML^2 + mL^2 = \\frac{1}{3}(6)(1)^2 + 0{,}5(1)^2 = 2{,}5\\text{ kg}\\cdot\\text{m}^2$. Maka: $$\\omega = \\frac{7{,}5}{2{,}5} = 3{,}00\\text{ rad/s}$$"
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah roda bermomen inersia $I = 4\\text{ kg}\\cdot\\text{m}^2$ mula-mula berputar dengan kecepatan sudut $\\omega_0 = 3\\text{ rad/s}$.",
+          "Pada roda bekerja torsi luar searah putaran awal yang nilainya naik secara linear dari $\\tau = 0$ pada $t = 0\\text{ s}$ hingga $\\tau = 16\\text{ N}\\cdot\\text{m}$ pada $t = 6\\text{ s}$, kemudian dipertahankan konstan $\\tau = 16\\text{ N}\\cdot\\text{m}$ dari $t = 6\\text{ s}$ hingga $t = 8\\text{ s}$."
+        ],
+        "question": "Kecepatan sudut roda pada saat $t = 8\\text{ s}$ adalah ...",
+        "options": {
+          "A": "$15\\text{ rad/s}$",
+          "B": "$19\\text{ rad/s}$",
+          "C": "$20\\text{ rad/s}$",
+          "D": "$23\\text{ rad/s}$",
+          "E": "$35\\text{ rad/s}$"
+        },
+        "answer": "D",
+        "hint": "Hitung impuls sudut $\\Delta L = \\int \\tau\\,dt$ sebagai luas di bawah kurva $\\tau$ terhadap $t$, lalu tambahkan pada $L_0 = I\\omega_0$.",
+        "explanation": "Impuls sudut merupakan luas grafik $\\tau - t$:\n- Segitiga ($0\\to 6\\text{ s}$): $\\frac{1}{2}(6)(16) = 48\\text{ N}\\cdot\\text{m}\\cdot\\text{s}$.\n- Persegi panjang ($6\\to 8\\text{ s}$): $2 \\times 16 = 32\\text{ N}\\cdot\\text{m}\\cdot\\text{s}$.\nTotal $\\Delta L = 80\\text{ kg}\\cdot\\text{m}^2/\\text{s}$. Momentum sudut akhir $L = I\\omega_0 + \\Delta L = 4(3) + 80 = 92$, sehingga $\\omega = \\frac{92}{4} = 23\\text{ rad/s}$."
+      },
+      {
+        "id": 9,
+        "type": "multiple_select",
+        "story": [
+          "Dua cakram tipis koaksial bermomen inersia $I_1$ dan $I_2$ ($I_1 \\ne I_2$) dipasang pada satu poros vertikal tanpa gesekan poros. Awalnya cakram 1 berputar dengan $\\omega_1 > 0$ sedangkan cakram 2 diam ($\\omega_2 = 0$).",
+          "Kedua cakram kemudian dirapatkan sehingga terjadi **gesekan kinetis internal** antarpermukaan cakram sampai akhirnya berputar bersama dengan laju sudut $\\omega'$."
+        ],
+        "question": "Manakah pernyataan yang **BENAR**? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Gaya gesek antarpermukaan cakram bersifat internal sehingga resultan torsi luar terhadap poros tetap nol dan momentum sudut total kekal",
+          "B": "Laju sudut gabungan memenuhi $\\omega' = \\frac{I_1}{I_1 + I_2}\\omega_1$ sehingga besarnya selalu lebih kecil daripada kecepatan sudut awal $\\omega_1$",
+          "C": "Energi kinetik rotasi total sistem setelah kedua cakram berputar bersama bernilai sama persis dengan energi kinetik awal cakram 1",
+          "D": "Fraksi energi kinetik awal yang berubah menjadi kalor akibat gesekan internal selama penggabungan adalah sebesar $\\frac{I_2}{I_1 + I_2}$",
+          "E": "Jika setelah berputar bersama kedua cakram dilepaskan kembali tanpa torsi luar, laju sudut masing-masing otomatis kembali ke $\\omega_1$ dan $0$"
+        },
+        "answer": ["A", "B", "D"],
+        "hint": "Bandingkan $E_{k,\\text{akhir}} = \\frac{1}{2}(I_1+I_2)(\\omega')^2$ dengan $E_{k,\\text{awal}} = \\frac{1}{2}I_1\\omega_1^2$.",
+        "explanation": "1. **A benar**: Torsi aksi-reaksi gesekan internal saling meniadakan sehingga $\\Sigma\\tau_{\\text{luar}} = 0$ dan $L$ kekal.\n2. **B benar**: $I_1\\omega_1 = (I_1+I_2)\\omega' \\implies \\omega' = \\frac{I_1}{I_1+I_2}\\omega_1 < \\omega_1$.\n3. **C & E salah**: Proses kopling ini adalah tumbukan rotasi tak lenting yang mendisipasi energi menjadi panas secara tak reversibel.\n4. **D benar**: $E_{k,\\text{akhir}} = \\frac{I_1}{I_1+I_2}E_{k,\\text{awal}}$, sehingga fraksi yang hilang menjadi kalor adalah $1 - \\frac{I_1}{I_1+I_2} = \\frac{I_2}{I_1+I_2}$."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah bintang homogen berbentuk bola pejal ($I = \\frac{2}{5}MR^2$) berotasi dengan periode $T_1 = 36\\text{ hari}$. Akibat keruntuhan gravitasi tanpa ada massa yang terlepas ($M$ tetap), jari-jarinya menyusut menjadi $\\frac{1}{3}$ kali jari-jari semula ($R_2 = \\frac{1}{3}R_1$)."
+        ],
+        "question": "Periode rotasi baru bintang setelah menyusut adalah ...",
+        "options": {
+          "A": "$4\\text{ hari}$",
+          "B": "$6\\text{ hari}$",
+          "C": "$12\\text{ hari}$",
+          "D": "$108\\text{ hari}$",
+          "E": "$324\\text{ hari}$"
+        },
+        "answer": "A",
+        "hint": "Ingat hubungan $\\omega = \\frac{2\\pi}{T}$ dan ketergantungan kuadrat $I \\propto R^2$.",
+        "explanation": "Dari $I_1\\omega_1 = I_2\\omega_2$ dengan $\\omega = \\frac{2\\pi}{T}$ dan $I \\propto R^2$, didapat $\\frac{R_1^2}{T_1} = \\frac{R_2^2}{T_2}$. Maka: $$T_2 = T_1 \\left(\\frac{R_2}{R_1}\\right)^2 = 36 \\times \\left(\\frac{1}{3}\\right)^2 = \\frac{36}{9} = 4\\text{ hari}$$"
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-05-menggelinding-katrol",
+    "title": "Fisika — 05. Bab 4: Gerak Menggelinding, Katrol & Energi Rotasi",
+    "category": "Fisika",
+    "description": "Latihan intensif gerak menggelinding di lantai datar licin vs kasar, tarikan di puncak silinder, syarat gesek minimum agar tak selip, pesawat Atwood katrol bermassa, energi rotasi, dan jebakan bidang miring licin.",
+    "difficulty": "Menengah - Sulit",
+    "estimated_minutes": 22,
+    "tags": ["Gerak Menggelinding", "Katrol Bermassa", "Energi Rotasi"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal ($I = \\frac{1}{2}MR^2$) bermassa $M = 6\\text{ kg}$ dan jari-jari $R = 0{,}2\\text{ m}$ ditarik di pusat massanya dengan gaya horizontal $F = 18\\text{ N}$ di atas lantai datar."
+        ],
+        "question": "Nilai percepatan pusat massa ketika lantai **licin sempurna** ($a_{\\text{licin}}$) dan ketika lantai **kasar hingga menggelinding murni** ($a_{\\text{kasar}}$) berturut-turut adalah ...",
+        "options": {
+          "A": "$2{,}0\\text{ m/s}^2$ dan $3{,}0\\text{ m/s}^2$",
+          "B": "$3{,}0\\text{ m/s}^2$ dan $2{,}0\\text{ m/s}^2$",
+          "C": "$3{,}0\\text{ m/s}^2$ dan $1{,}5\\text{ m/s}^2$",
+          "D": "$2{,}0\\text{ m/s}^2$ dan $2{,}0\\text{ m/s}^2$",
+          "E": "$3{,}0\\text{ m/s}^2$ dan $4{,}0\\text{ m/s}^2$"
+        },
+        "answer": "B",
+        "hint": "Pada lantai licin tanpa gesekan, gaya di pusat massa tidak menimbulkan torsi sehingga silinder tidak berotasi.",
+        "explanation": "- Lantai licin: tidak ada gesekan dan $\\tau_{\\text{pm}} = 0$, sehingga silinder bertranslasi murni: $a_{\\text{licin}} = \\frac{F}{M} = \\frac{18}{6} = 3{,}0\\text{ m/s}^2$.\n- Lantai kasar: $F - f_s = Ma$ dan $f_s R = \\frac{1}{2}MR^2(a/R) \\implies f_s = \\frac{1}{2}Ma$. Jadi $a_{\\text{kasar}} = \\frac{F}{1{,}5 M} = \\frac{18}{9} = 2{,}0\\text{ m/s}^2$."
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal ($I = \\frac{1}{2}MR^2$) bermassa $M = 6\\text{ kg}$ ditarik oleh gaya horizontal $F = 18\\text{ N}$ ke arah kanan tepat pada **tepi puncak teratasnya** di atas lantai datar kasar sehingga silinder menggelinding murni ke kanan."
+        ],
+        "question": "Besar percepatan pusat massa ($a$) dan gaya gesek statis ($f_s$) yang bekerja di dasar silinder adalah ...",
+        "options": {
+          "A": "$a = 2{,}0\\text{ m/s}^2$ dan $f_s = 6{,}0\\text{ N}$ ke kiri",
+          "B": "$a = 3{,}0\\text{ m/s}^2$ dan $f_s = 0{,}0\\text{ N}$ tanpa arah",
+          "C": "$a = 4{,}0\\text{ m/s}^2$ dan $f_s = 6{,}0\\text{ N}$ ke kiri",
+          "D": "$a = 4{,}0\\text{ m/s}^2$ dan $f_s = 6{,}0\\text{ N}$ ke kanan",
+          "E": "$a = 1{,}5\\text{ m/s}^2$ dan $f_s = 9{,}0\\text{ N}$ ke kiri"
+        },
+        "answer": "D",
+        "hint": "Jangan anggap gaya gesek selalu ke kiri! Hitung torsi terhadap titik singgung bawah (jarak gaya $F$ adalah $2R$).",
+        "explanation": "Misalkan $f_s$ mengarah ke kanan:\n- Translasi: $F + f_s = Ma$.\n- Rotasi terhadap pusat massa (searah jarum jam): $FR - f_s R = \\frac{1}{2}MR^2(a/R) \\implies F - f_s = \\frac{1}{2}Ma$.\nJumlahkan kedua persamaan: $2F = \\frac{3}{2}Ma \\implies a = \\frac{4(18)}{3(6)} = 4{,}0\\text{ m/s}^2$. Maka $f_s = Ma - F = 6(4) - 18 = +6{,}0\\text{ N}$ (positif, berarti mengarah **ke kanan**)."
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah bola pejal ($I = \\frac{2}{5}MR^2$) dan sebuah silinder pejal ($I = \\frac{1}{2}MR^2$) dilepaskan dari diam di atas bidang miring kasar dengan sudut kemiringan $37^\\circ$ ($\\sin 37^\\circ = 0{,}6;\\ g = 10\\text{ m/s}^2$) hingga keduanya menggelinding murni."
+        ],
+        "question": "Percepatan linear silinder pejal dan perbandingan percepatan bola pejal terhadap silinder pejal ($a_{\\text{bola}} : a_{\\text{silinder}}$) berturut-turut adalah ...",
+        "options": {
+          "A": "$4{,}0\\text{ m/s}^2$ dan $15 : 14$",
+          "B": "$4{,}0\\text{ m/s}^2$ dan $14 : 15$",
+          "C": "$4{,}0\\text{ m/s}^2$ dan $4 : 5$",
+          "D": "$3{,}0\\text{ m/s}^2$ dan $14 : 15$",
+          "E": "$5{,}3\\text{ m/s}^2$ dan $15 : 14$"
+        },
+        "answer": "A",
+        "hint": "Gunakan $a = \\frac{g\\sin\\theta}{1 + k}$ dengan $k_{\\text{bola}} = 2/5$ dan $k_{\\text{silinder}} = 1/2$.",
+        "explanation": "Untuk silinder pejal ($k = 1/2$): $a_{\\text{silinder}} = \\frac{10(0{,}6)}{1 + 0{,}5} = 4{,}0\\text{ m/s}^2$. Untuk bola pejal ($k = 2/5$): $a_{\\text{bola}} = \\frac{6}{7/5} = \\frac{30}{7}\\text{ m/s}^2$. Rasio: $$\\frac{a_{\\text{bola}}}{a_{\\text{silinder}}} = \\frac{1/(7/5)}{1/(3/2)} = \\frac{5/7}{2/3} = \\frac{15}{14}$$"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal ($I = \\frac{1}{2}MR^2$) diletakkan di atas bidang miring dengan sudut kemiringan $37^\\circ$ ($\\tan 37^\\circ = 0{,}75$; $\\sin 37^\\circ = 0{,}6$)."
+        ],
+        "question": "Koefisien gesek statis **minimum** ($\\mu_{s,\\min}$) agar silinder dapat menggelinding murni **tanpa selip** adalah ...",
+        "options": {
+          "A": "$0{,}20$",
+          "B": "$0{,}375$",
+          "C": "$0{,}25$",
+          "D": "$0{,}50$",
+          "E": "$0{,}75$"
+        },
+        "answer": "C",
+        "hint": "Tentukan besar gaya gesek statis yang diperlukan saat menggelinding ($f_s = \\frac{k}{1+k}Mg\\sin\\theta$), lalu syaratkan $f_s \\le \\mu_s N$.",
+        "explanation": "Saat menggelinding murni, $a = \\frac{g\\sin\\theta}{1+1/2} = \\frac{2}{3}g\\sin\\theta$ dan $f_s = \\frac{1}{2}Ma = \\frac{1}{3}Mg\\sin\\theta$. Syarat tanpa selip $f_s \\le \\mu_s Mg\\cos\\theta$ menghasilkan: $$\\mu_{s,\\min} = \\frac{1}{3}\\tan 37^\\circ = \\frac{1}{3} \\times \\frac{3}{4} = 0{,}25$$"
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "story": [
+          "Dua benda bermassa $m_1 = 6\\text{ kg}$ dan $m_2 = 2\\text{ kg}$ dihubungkan tali ringan melalui katrol silinder pejal bermassa $M = 4\\text{ kg}$ dan jari-jari $10\\text{ cm}$ ($I = \\frac{1}{2}MR^2$, $g = 10\\text{ m/s}^2$). Sistem mula-mula diam lalu dilepaskan."
+        ],
+        "question": "Nilai percepatan sistem ($a$), tegangan tali $T_1$ pada $m_1$, dan tegangan tali $T_2$ pada $m_2$ berturut-turut adalah ...",
+        "options": {
+          "A": "$a = 3{,}3\\text{ m/s}^2$, $T_1 = 40\\text{ N}$, $T_2 = 26{,}7\\text{ N}$",
+          "B": "$a = 4{,}0\\text{ m/s}^2$, $T_1 = 28\\text{ N}$, $T_2 = 36\\text{ N}$",
+          "C": "$a = 4{,}0\\text{ m/s}^2$, $T_1 = 36\\text{ N}$, $T_2 = 36\\text{ N}$",
+          "D": "$a = 5{,}0\\text{ m/s}^2$, $T_1 = 30\\text{ N}$, $T_2 = 30\\text{ N}$",
+          "E": "$a = 4{,}0\\text{ m/s}^2$, $T_1 = 36\\text{ N}$, $T_2 = 28\\text{ N}$"
+        },
+        "answer": "E",
+        "hint": "Karena katrol bermassa $M = 4\\text{ kg}$, tegangan tali di sisi turun ($T_1$) wajib lebih besar daripada di sisi naik ($T_2$).",
+        "explanation": "Percepatan pesawat Atwood dengan katrol pejal: $$a = \\frac{(m_1 - m_2)g}{m_1 + m_2 + \\frac{1}{2}M} = \\frac{(6 - 2)(10)}{6 + 2 + 2} = 4{,}0\\text{ m/s}^2$$ Untuk $m_1$ bergerak turun: $T_1 = m_1(g - a) = 6(10 - 4) = 36\\text{ N}$. Untuk $m_2$ bergerak naik: $T_2 = m_2(g + a) = 2(10 + 4) = 28\\text{ N}$."
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah balok $m_1 = 5\\text{ kg}$ di atas meja horizontal **kasar** ($\\mu_k = 0{,}2$) dihubungkan tali ringan melewati katrol silinder pejal di tepi meja ($M = 4\\text{ kg}$, $I = \\frac{1}{2}MR^2$) ke beban gantung $m_2 = 3\\text{ kg}$ ($g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Jika sistem dilepas dari diam dan tali tidak selip terhadap katrol, percepatan linear sistem adalah ...",
+        "options": {
+          "A": "$1{,}67\\text{ m/s}^2$",
+          "B": "$2{,}00\\text{ m/s}^2$",
+          "C": "$2{,}50\\text{ m/s}^2$",
+          "D": "$3{,}00\\text{ m/s}^2$",
+          "E": "$4{,}00\\text{ m/s}^2$"
+        },
+        "answer": "B",
+        "hint": "Kurangi gaya berat beban gantung dengan gaya gesek kinetis meja, lalu bagi dengan massa efektif $m_1 + m_2 + \\frac{1}{2}M$.",
+        "explanation": "Gaya gesek kinetis pada balok $m_1$ adalah $f_k = \\mu_k m_1 g = 0{,}2(5)(10) = 10\\text{ N}$, sedangkan berat penarik $w_2 = 3(10) = 30\\text{ N}$. Maka: $$a = \\frac{w_2 - f_k}{m_1 + m_2 + \\frac{1}{2}M} = \\frac{30 - 10}{5 + 3 + 2} = \\frac{20}{10} = 2{,}00\\text{ m/s}^2$$"
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah **bola tipis berongga** ($I = \\frac{2}{3}MR^2$) bermassa $M = 3\\text{ kg}$ bergerak menggelinding murni di atas lantai mendatar dengan kelajuan pusat massa $v = 6\\text{ m/s}$."
+        ],
+        "question": "Energi kinetik total bola dan persentase bagian energi kinetik rotasinya terhadap energi kinetik total adalah ...",
+        "options": {
+          "A": "$90{,}0\\text{ J}$ dan $40{,}0\\%$",
+          "B": "$90{,}0\\text{ J}$ dan $60{,}0\\%$",
+          "C": "$90{,}0\\text{ J}$ dan $66{,}7\\%$",
+          "D": "$75{,}6\\text{ J}$ dan $28{,}6\\%$",
+          "E": "$81{,}0\\text{ J}$ dan $33{,}3\\%$"
+        },
+        "answer": "A",
+        "hint": "Gunakan $E_{k,\\text{tot}} = \\frac{1}{2}Mv^2(1+k)$, lalu fraksi rotasinya adalah $\\frac{k}{1+k}$, bukan $k$.",
+        "explanation": "$E_{k,\\text{trans}} = \\frac{1}{2}(3)(6)^2 = 54{,}0\\text{ J}$ dan $E_{k,\\text{rot}} = \\frac{1}{2}\\left(\\frac{2}{3}MR^2\\right)\\left(\\frac{v}{R}\\right)^2 = \\frac{1}{3}Mv^2 = 36{,}0\\text{ J}$. Totalnya $54{,}0 + 36{,}0 = 90{,}0\\text{ J}$, dengan porsi rotasi $\\frac{36{,}0}{90{,}0} = 40{,}0\\%$."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah bola pejal ($I = \\frac{2}{5}MR^2$) mula-mula menggelinding murni di lantai datar kasar dengan kelajuan pusat massa $v = 10\\text{ m/s}$, lalu naik ke suatu bidang miring yang **sangat licin** (tanpa gesekan sama sekali, $g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Ketinggian maksimum ($h$) yang dapat dicapai bola pejal di atas bidang miring licin tersebut adalah ...",
+        "options": {
+          "A": "$2{,}0\\text{ m}$",
+          "B": "$3{,}0\\text{ m}$",
+          "C": "$5{,}0\\text{ m}$",
+          "D": "$7{,}0\\text{ m}$",
+          "E": "$7{,}5\\text{ m}$"
+        },
+        "answer": "C",
+        "hint": "Pada bidang miring licin tidak ada torsi gesek yang menghentikan putaran bola, sehingga di titik tertinggi bola tetap berotasi dengan $\\omega$ awal!",
+        "explanation": "Karena bidang miring licin, tidak ada momen gaya luar terhadap pusat massa sehingga kecepatan sudut $\\omega = v/R$ **tidak berubah**. Energi kinetik rotasi tetap tersimpan sebagai rotasi, dan hanya energi kinetik translasi yang berubah menjadi energi potensial: $$mgh = \\frac{1}{2}mv^2 \\implies h = \\frac{v^2}{2g} = \\frac{10^2}{2(10)} = 5{,}0\\text{ m}$$ (Berbeda dari bidang miring kasar yang akan mencapai $7{,}0\\text{ m}$)."
+      },
+      {
+        "id": 9,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah bola pejal kecil ($I = \\frac{2}{5}mr^2$) dilepas dari diam pada ketinggian $H$ lalu menggelinding murni menuruni lintasan kasar menuju lingkaran vertikal (loop-the-loop) berjari-jari $R_{\\text{lintasan}} = 2{,}0\\text{ m}$ ($r \\ll R_{\\text{lintasan}}$)."
+        ],
+        "question": "Tinggi awal minimum $H$ agar bola pejal tidak terlepas saat melewati titik tertinggi lingkaran ($h = 2R_{\\text{lintasan}}$) adalah ...",
+        "options": {
+          "A": "$4{,}0\\text{ m}$",
+          "B": "$5{,}0\\text{ m}$",
+          "C": "$5{,}5\\text{ m}$",
+          "D": "$5{,}4\\text{ m}$",
+          "E": "$6{,}0\\text{ m}$"
+        },
+        "answer": "D",
+        "hint": "Di puncak lingkaran berlaku $v^2 = g R_{\\text{lintasan}}$, dan pada kekekalan energi perhitungkan faktor rotasi $(1 + \\frac{2}{5})$.",
+        "explanation": "Syarat agar tidak jatuh di puncak lingkaran ($N = 0$): $v^2 = g R_{\\text{lintasan}}$. Dari kekekalan energi: $$mgH = mg(2R_{\\text{lintasan}}) + \\frac{1}{2}mv^2\\left(1 + \\frac{2}{5}\\right) = 2mgR_{\\text{lintasan}} + \\frac{7}{10}mgR_{\\text{lintasan}}$$ Maka $H = 2{,}7 R_{\\text{lintasan}} = 2{,}7 \\times 2{,}0 = 5{,}4\\text{ m}$."
+      },
+      {
+        "id": 10,
+        "type": "multiple_select",
+        "story": [
+          "Sebuah silinder pejal ($I = \\frac{1}{2}mR^2$) dan sebuah silinder tipis berongga ($I = mR^2$) yang bermassa sama $m$ dan berjari-jari sama $R$ dilepas bersamaan dari keadaan diam di puncak bidang miring kasar setinggi $h$, lalu keduanya menggelinding murni hingga dasar."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR**? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Kedua benda tiba di dasar bidang miring dengan energi kinetik total yang sama besar",
+          "B": "Silinder pejal tiba lebih dulu di dasar karena kelajuan translasi akhirnya lebih besar",
+          "C": "Pada silinder tipis berongga di dasar bidang miring, energi kinetik rotasinya sama besar dengan energi kinetik translasinya",
+          "D": "Jika massa silinder pejal digandakan menjadi $2m$, waktu tempuhnya hingga ke dasar berkurang menjadi setengah semula",
+          "E": "Selama menuruni bidang miring kasar tanpa selip, gaya gesek statis melakukan usaha negatif yang memperkecil energi mekanik"
+        },
+        "answer": ["A", "B", "C"],
+        "hint": "Periksa pengaruh massa $m$ terhadap percepatan dan ingat bahwa gaya gesek statis pada titik kontak diam tidak melakukan usaha.",
+        "explanation": "1. **A benar**: Karena $m$ dan $h$ sama serta energi mekanik kekal, $E_{k,\\text{tot}} = mgh$ bernilai sama untuk keduanya.\n2. **B benar**: $k_{\\text{pejal}} = 0{,}5 < k_{\\text{berongga}} = 1$, sehingga percepatan dan kelajuan akhir silinder pejal lebih besar.\n3. **C benar**: Untuk $k = 1$, $E_{k,\\text{rot}} = \\frac{1}{2}(mR^2)(v/R)^2 = \\frac{1}{2}mv^2 = E_{k,\\text{trans}}$.\n4. **D salah**: Percepatan $a = \\frac{g\\sin\\theta}{1+k}$ tidak bergantung pada massa.\n5. **E salah**: Titik kontak memiliki kelajuan sesaat nol sehingga gaya gesek statis tidak melakukan usaha disipatif."
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-06-keseimbangan-benda-tegar",
+    "title": "Fisika — 06. Bab 5: Keseimbangan Partikel & Benda Tegar",
+    "category": "Fisika",
+    "description": "Latihan keseimbangan partikel sudut $37^\\circ/53^\\circ$ serta acuan garis vertikal, pikulan bermassa, batang berengsel beserta gaya reaksi engsel, tangga bersandar, balok terguling vs bergeser, dan titik berat pelat berlubang.",
+    "difficulty": "Menengah - Sulit",
+    "estimated_minutes": 22,
+    "tags": ["Keseimbangan Partikel", "Benda Tegar", "Titik Berat"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah lampu bermassa $12\\text{ kg}$ ($g = 10\\text{ m/s}^2$) digantung setimbang menggunakan dua tali miring pada langit-langit horizontal. Tali kiri ($T_1$) membentuk sudut $37^\\circ$ terhadap langit-langit, sedangkan tali kanan ($T_2$) membentuk sudut $53^\\circ$ terhadap langit-langit ($\\sin 37^\\circ = 0{,}6;\\ \\sin 53^\\circ = 0{,}8$)."
+        ],
+        "question": "Besar tegangan tali $T_1$ dan $T_2$ berturut-turut adalah ...",
+        "options": {
+          "A": "$72\\text{ N}$ dan $96\\text{ N}$",
+          "B": "$96\\text{ N}$ dan $72\\text{ N}$",
+          "C": "$60\\text{ N}$ dan $60\\text{ N}$",
+          "D": "$75\\text{ N}$ dan $100\\text{ N}$",
+          "E": "$150\\text{ N}$ dan $200\\text{ N}$"
+        },
+        "answer": "A",
+        "hint": "Tali yang posisinya lebih curam (sudut terhadap langit-langit lebih besar) selalu memikul tegangan lebih besar.",
+        "explanation": "Karena $37^\\circ + 53^\\circ = 90^\\circ$ dan berat $w = 120\\text{ N}$:\n- $\\Sigma F_x = 0 \\implies 0{,}8 T_1 = 0{,}6 T_2 \\implies T_2 = \\frac{4}{3}T_1$.\n- $\\Sigma F_y = 0 \\implies 0{,}6 T_1 + 0{,}8(\\frac{4}{3}T_1) = 120 \\implies \\frac{5}{3}T_1 = 120 \\implies T_1 = 72\\text{ N}$ dan $T_2 = 96\\text{ N}$."
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah beban seberat $w = 120\\text{ N}$ ditahan setimbang oleh dua tali: tali A dipasang **mendatar ke kiri** menuju dinding vertikal, dan tali B ditarik miring ke kanan atas menuju langit-langit dengan membentuk sudut **$37^\\circ$ terhadap garis vertikal** ($\\sin 37^\\circ = 0{,}6;\\ \\cos 37^\\circ = 0{,}8$)."
+        ],
+        "question": "Besar tegangan tali A ($T_A$) dan tali B ($T_B$) berturut-turut adalah ...",
+        "options": {
+          "A": "$72\\text{ N}$ dan $96\\text{ N}$",
+          "B": "$120\\text{ N}$ dan $150\\text{ N}$",
+          "C": "$90\\text{ N}$ dan $150\\text{ N}$",
+          "D": "$160\\text{ N}$ dan $200\\text{ N}$",
+          "E": "$120\\text{ N}$ dan $200\\text{ N}$"
+        },
+        "answer": "C",
+        "hint": "Karena sudut $37^\\circ$ diukur terhadap garis vertikal, komponen vertikal $T_B$ menggunakan $\\cos 37^\\circ$, bukan $\\sin 37^\\circ$!",
+        "explanation": "Proyeksi vertikal tali B mengimbangi berat beban: $T_B\\cos 37^\\circ = 120 \\implies T_B = \\frac{120}{0{,}8} = 150\\text{ N}$. Proyeksi horizontalnya mengimbangi tali A: $T_A = T_B\\sin 37^\\circ = 150 \\times 0{,}6 = 90\\text{ N}$."
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Seorang pedagang memikul beban menggunakan batang bambu **homogen** PQ sepanjang $120\\text{ cm}$ yang memiliki **berat sendiri $w_b = 80\\text{ N}$**. Di ujung P tergantung keranjang seberat $w_1 = 300\\text{ N}$ dan di ujung Q tergantung keranjang seberat $w_2 = 100\\text{ N}$."
+        ],
+        "question": "Agar batang seimbang horizontal, letak pundak dari ujung P dan besar gaya tekan pada pundak adalah ...",
+        "options": {
+          "A": "$25{,}0\\text{ cm}$ dari P dan $480\\text{ N}$",
+          "B": "$30{,}0\\text{ cm}$ dari P dan $400\\text{ N}$",
+          "C": "$45{,}0\\text{ cm}$ dari P dan $480\\text{ N}$",
+          "D": "$35{,}0\\text{ cm}$ dari P dan $480\\text{ N}$",
+          "E": "$85{,}0\\text{ cm}$ dari P dan $480\\text{ N}$"
+        },
+        "answer": "D",
+        "hint": "Jangan abaikan berat batang bambu $w_b = 80\\text{ N}$ yang bekerja tepat di titik tengah batang ($60\\text{ cm}$ dari P).",
+        "explanation": "Gaya normal pundak menanggung seluruh beban: $N = 300 + 80 + 100 = 480\\text{ N}$. Mengambil poros di titik P ($\\Sigma\\tau_P = 0$): $$N \\cdot x = w_b(60) + w_2(120) \\implies 480 x = 80(60) + 100(120) = 16800 \\implies x = 35{,}0\\text{ cm}$$"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen AB panjang $L = 4\\text{ m}$ dan berat $W_b = 100\\text{ N}$ berengsel licin di dinding vertikal pada titik A dalam posisi horizontal. Di ujung kanan B tergantung beban $W = 40\\text{ N}$.",
+          "Ujung B ditahan tali miring BC menuju titik C pada dinding tepat di atas A dengan $AC = 3\\text{ m}$ ($BC = 5\\text{ m}$, sehingga $\\sin\\theta = 0{,}6$ dan $\\cos\\theta = 0{,}8$)."
+        ],
+        "question": "Besar tegangan tali $T$ dan gaya reaksi total engsel di titik A ($R_A$) berturut-turut adalah ...",
+        "options": {
+          "A": "$T = 112{,}5\\text{ N}$ dan $R_A = 105\\text{ N}$",
+          "B": "$T = 150{,}0\\text{ N}$ dan $R_A = 120\\text{ N}$",
+          "C": "$T = 150{,}0\\text{ N}$ dan $R_A = 140\\text{ N}$",
+          "D": "$T = 150{,}0\\text{ N}$ dan $R_A = 170\\text{ N}$",
+          "E": "$T = 150{,}0\\text{ N}$ dan $R_A = 130\\text{ N}$"
+        },
+        "answer": "E",
+        "hint": "Engsel memberikan dua komponen gaya reaksi: mendatar ($R_{Ax}$) dan vertikal ($R_{Ay}$), lalu cari resultannya dengan Pythagoras.",
+        "explanation": "1. Poros di A ($\\Sigma\\tau_A = 0$): $100(2) + 40(4) = T(0{,}6)(4) \\implies 360 = 2{,}4 T \\implies T = 150{,}0\\text{ N}$.\n2. Keseimbangan translasi: $R_{Ax} = T\\cos\\theta = 150(0{,}8) = 120\\text{ N}$ dan $R_{Ay} = (W_b + W) - T\\sin\\theta = 140 - 90 = 50\\text{ N}$.\nResultan gaya engsel: $R_A = \\sqrt{120^2 + 50^2} = 130\\text{ N}$."
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah tangga homogen bermassa $M = 20\\text{ kg}$ bersandar pada dinding vertikal **licin sempurna** dan bertumpu pada lantai horizontal **kasar** membentuk sudut $53^\\circ$ terhadap lantai ($\\sin 53^\\circ = 0{,}8;\\ \\cos 53^\\circ = 0{,}6;\\ \\tan 53^\\circ = \\frac{4}{3}$)."
+        ],
+        "question": "Koefisien gesek statis minimum lantai ($\\mu_s$) agar tangga tetap setimbang tanpa tergelincir adalah ...",
+        "options": {
+          "A": "$0{,}300$",
+          "B": "$0{,}375$",
+          "C": "$0{,}400$",
+          "D": "$0{,}667$",
+          "E": "$0{,}750$"
+        },
+        "answer": "B",
+        "hint": "Gunakan poros di kaki tangga: torsi berat tangga di tengah ($\\frac{L}{2}\\cos 53^\\circ$) diimbangi torsi gaya normal dinding ($L\\sin 53^\\circ$).",
+        "explanation": "Dari $\\Sigma F_y = 0$, $N_L = W = 200\\text{ N}$. Dari $\\Sigma F_x = 0$, $f_s = N_D$. Mengambil torsi di kaki tangga: $W\\left(\\frac{L}{2}\\cos 53^\\circ\\right) = N_D(L\\sin 53^\\circ) \\implies N_D = \\frac{W}{2\\tan 53^\\circ} = \\frac{200}{8/3} = 75\\text{ N}$. Maka $\\mu_s = \\frac{f_s}{N_L} = \\frac{75}{200} = 0{,}375$."
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah lemari persegi panjang pejal homogen bermassa $m = 40\\text{ kg}$ memiliki lebar alas $b = 0{,}6\\text{ m}$ dan tinggi $h = 1{,}6\\text{ m}$ berdiri di lantai datar kasar ($\\mu_s = 0{,}5;\\ g = 10\\text{ m/s}^2$).",
+          "Lemari didorong oleh gaya horizontal $F$ pada ketinggian $y = 1{,}0\\text{ m}$ dari lantai yang diperbesar secara perlahan."
+        ],
+        "question": "Peristiwa yang terjadi lebih dahulu beserta nilai gaya kritis $F$ saat kejadian tersebut dimulai adalah ...",
+        "options": {
+          "A": "Mengguling lebih dulu pada gaya $F = 75\\text{ N}$",
+          "B": "Menggeser lebih dulu pada gaya $F = 120\\text{ N}$",
+          "C": "Mengguling lebih dulu pada gaya $F = 120\\text{ N}$",
+          "D": "Menggeser lebih dulu pada gaya $F = 200\\text{ N}$",
+          "E": "Mengguling lebih dulu pada gaya $F = 200\\text{ N}$"
+        },
+        "answer": "C",
+        "hint": "Bandingkan gaya batas geser ($\\mu_s N$) dengan gaya batas guling (torsi terhadap tepi depan alas dengan lengan berat $b/2$).",
+        "explanation": "- Batas mulai bergeser: $F_{\\text{geser}} = \\mu_s mg = 0{,}5(40)(10) = 200\\text{ N}$.\n- Batas mulai mengguling terhadap tepi depan alas (pusat massa berjarak $b/2 = 0{,}3\\text{ m}$): $F_{\\text{guling}}(1{,}0) = 400(0{,}3) \\implies F_{\\text{guling}} = 120\\text{ N}$.\nKarena $120\\text{ N} < 200\\text{ N}$, lemari **mengguling lebih dulu** saat $F = 120\\text{ N}$."
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah pelat tipis homogen berbentuk persegi panjang berada pada koordinat $0 \\le x \\le 12\\text{ cm}$ dan $0 \\le y \\le 9\\text{ cm}$.",
+          "Di sudut kanan atas pelat dipotong dan dibuang bagian persegi panjang pada daerah $6 \\le x \\le 12\\text{ cm}$ dan $6 \\le y \\le 9\\text{ cm}$."
+        ],
+        "question": "Koordinat titik berat $(x_0, y_0)$ dari pelat sisa tersebut adalah ...",
+        "options": {
+          "A": "$(4{,}5\\text{ cm} ; 3{,}25\\text{ cm})$",
+          "B": "$(5{,}0\\text{ cm} ; 3{,}50\\text{ cm})$",
+          "C": "$(6{,}4\\text{ cm} ; 4{,}90\\text{ cm})$",
+          "D": "$(5{,}4\\text{ cm} ; 3{,}90\\text{ cm})$",
+          "E": "$(6{,}6\\text{ cm} ; 5{,}10\\text{ cm})$"
+        },
+        "answer": "D",
+        "hint": "Gunakan luas bertanda negatif untuk potongan: $x_0 = \\frac{A_1 x_1 - A_2 x_2}{A_1 - A_2}$.",
+        "explanation": "Pelat penuh: $A_1 = 12 \\times 9 = 108\\text{ cm}^2$, pusat $(6; 4{,}5)$. Potongan: $A_2 = 6 \\times 3 = 18\\text{ cm}^2$, pusat $(9; 7{,}5)$.\n- $x_0 = \\frac{108(6) - 18(9)}{108 - 18} = \\frac{648 - 162}{90} = \\frac{486}{90} = 5{,}4\\text{ cm}$.\n- $y_0 = \\frac{108(4{,}5) - 18(7{,}5)}{90} = \\frac{486 - 135}{90} = \\frac{351}{90} = 3{,}90\\text{ cm}$."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen AB panjang $L = 3\\text{ m}$ dan berat $W_b = 60\\text{ N}$ berengsel licin di dinding vertikal pada titik A dalam posisi mendatar. Pada titik C berjarak $2\\text{ m}$ dari A, batang ditahan oleh tali miring ke atas menuju dinding pada sudut $30^\\circ$ terhadap batang.",
+          "Di ujung kanan B digantung beban tambahan sebesar $W = 90\\text{ N}$."
+        ],
+        "question": "Besar tegangan tali penahan tersebut adalah ...",
+        "options": {
+          "A": "$180\\text{ N}$",
+          "B": "$240\\text{ N}$",
+          "C": "$270\\text{ N}$",
+          "D": "$450\\text{ N}$",
+          "E": "$360\\text{ N}$"
+        },
+        "answer": "E",
+        "hint": "Perhatikan letak titik ikat tali di $AC = 2\\text{ m}$ (bukan $3\\text{ m}$), sedangkan beban $90\\text{ N}$ berada di ujung $3\\text{ m}$.",
+        "explanation": "Mengambil poros di engsel A ($\\Sigma\\tau_A = 0$): $$W_b\\left(\\frac{L}{2}\\right) + W(L) = T\\sin 30^\\circ \\cdot (AC)$$ $$60(1{,}5) + 90(3{,}0) = T(0{,}5)(2{,}0) \\implies 90 + 270 = T \\implies T = 360\\text{ N}$$"
+      },
+      {
+        "id": 9,
+        "type": "multiple_select",
+        "story": [
+          "Sebuah papan jembatan homogen bermassa $M$ dan panjang $L$ diletakkan mendatar di atas dua penyangga: penyangga A di ujung kiri ($x = 0$) dan penyangga B pada posisi $x = \\frac{3}{4}L$ dari ujung kiri (sehingga $\\frac{1}{4}L$ bagian kanan menggantung bebas).",
+          "Seorang pejalan kaki bermassa $m$ berjalan perlahan dari ujung kiri A menuju ujung kanan papan."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR**? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Ketika pejalan kaki berada tepat di atas penyangga A, gaya normal di penyangga B bernilai $\\frac{2}{3}Mg$",
+          "B": "Selama pejalan kaki berjalan dari A menuju B, gaya normal $N_A$ terus berkurang sedangkan gaya normal $N_B$ terus bertambah",
+          "C": "Begitu pejalan kaki melangkah melewati B menuju bagian menggantung, penyangga A menarik ke bawah sehingga $N_A$ bertambah besar",
+          "D": "Jika massa pejalan kaki memenuhi $m = \\frac{3}{4}M$, papan tepat akan terjungkit saat pejalan kaki mencapai ujung kanan papan",
+          "E": "Pada saat papan tepat mulai terjungkit memutar terhadap penyangga B, besar gaya normal penyangga A tepat menjadi nol"
+        },
+        "answer": ["A", "B", "E"],
+        "hint": "Penyangga hanya bisa mendorong ke atas ($N_A \\ge 0$). Uji momen gaya terhadap B saat pejalan kaki berada di ujung kanan ($x = L$).",
+        "explanation": "1. **A benar**: Saat $x = 0$, torsi terhadap A memberi $N_B(\\frac{3}{4}L) = Mg(\\frac{1}{2}L) \\implies N_B = \\frac{2}{3}Mg$.\n2. **B benar**: Mendekati B, beban berpindah ke B sehingga $N_B$ naik dan $N_A$ turun.\n3. **C salah**: Penyangga tidak mengikat papan; saat melewati B, $N_A$ makin mengecil hingga nol.\n4. **D salah**: Di ujung kanan ($\\frac{1}{4}L$ di kanan B), torsi orang $mg(\\frac{1}{4}L)$ baru menyamai torsi papan $Mg(\\frac{1}{4}L)$ ketika $m = M$, bukan $\\frac{3}{4}M$.\n5. **E benar**: Syarat ambang terjungkit adalah kontak di A terlepas ($N_A = 0$)."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen AB panjang $L = 2\\text{ m}$ dan berat $W_b = 48\\text{ N}$ dipasang mendatar pada engsel licin A di dinding. Ujung kanan B diikat tali vertikal ke atas melewati katrol tetap licin tak bermassa, lalu ujung tali lainnya menahan balok $m_1$ di atas **bidang miring licin** bersudut $37^\\circ$ ($\\sin 37^\\circ = 0{,}6;\\ g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Massa balok $m_1$ yang dibutuhkan agar seluruh sistem berada dalam keadaan setimbang statis adalah ...",
+        "options": {
+          "A": "$2{,}4\\text{ kg}$",
+          "B": "$4{,}0\\text{ kg}$",
+          "C": "$3{,}0\\text{ kg}$",
+          "D": "$6{,}0\\text{ kg}$",
+          "E": "$8{,}0\\text{ kg}$"
+        },
+        "answer": "B",
+        "hint": "Cari dahulu tegangan tali $T$ dari keseimbangan torsi batang AB, lalu samakan dengan komponen berat balok sejajar bidang miring.",
+        "explanation": "Keseimbangan batang AB terhadap A: $T \\cdot L = W_b \\left(\\frac{L}{2}\\right) \\implies T = \\frac{48}{2} = 24\\text{ N}$. Pada bidang miring licin, keseimbangan balok mensyaratkan $T = m_1 g \\sin 37^\\circ$, sehingga: $$24 = m_1 (10)(0{,}6) \\implies m_1 = \\frac{24}{6} = 4{,}0\\text{ kg}$$"
+      }
+    ]
+  },
+  {
+    "id": "fisika-rotasi-07-ultimatum-ujian",
+    "title": "Fisika — 07. Ultimatum Persiapan Ujian: Dinamika Rotasi & Keseimbangan",
+    "category": "Fisika",
+    "description": "15 soal HOTS lintas sub-bab untuk simulasi akhir ujian: menggabungkan tumbukan sudut-energi, silinder menggelinding dengan katrol bermassa, arah gesek naik-turun, batang tak homogen, roda menaiki tangga, batang bebas tak berporos, katrol bertingkat, dan pengujian asumsi salah.",
+    "difficulty": "Sulit",
+    "estimated_minutes": 30,
+    "tags": ["Ultimatum Ujian", "HOTS Lintas Bab", "Analisis Asumsi"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen bermassa $M = 3\\text{ kg}$ dan panjang $L = 1{,}0\\text{ m}$ digantung vertikal pada engsel licin di ujung atasnya ($I = \\frac{1}{3}ML^2$).",
+          "Peluru bermassa $m = 1\\text{ kg}$ bergerak mendatar dengan laju $v_0 = 10\\text{ m/s}$ menumbuk tepat **titik tengah batang** ($r = 0{,}5\\text{ m}$) dan menancap di sana, sehingga sistem berayun naik ($g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Kecepatan sudut sesaat setelah tumbukan ($\\omega$) dan sudut simpangan maksimum ($\\theta$) yang dicapai batang adalah ...",
+        "options": {
+          "A": "$\\omega = 2{,}5\\text{ rad/s}$ dan $\\theta = 37^\\circ$",
+          "B": "$\\omega = 4{,}0\\text{ rad/s}$ dan $\\theta = 60^\\circ$",
+          "C": "$\\omega = 4{,}0\\text{ rad/s}$ dan $\\theta = 53^\\circ$",
+          "D": "$\\omega = 5{,}0\\text{ rad/s}$ dan $\\theta = 53^\\circ$",
+          "E": "$\\omega = 5{,}0\\text{ rad/s}$ dan $\\theta = 60^\\circ$"
+        },
+        "answer": "B",
+        "hint": "Selama tumbukan gunakan kekekalan $L$ (bukan $E_k$!), lalu saat berayun naik gunakan kekekalan energi mekanik untuk pusat massa gabungan di $d = 0{,}5\\text{ m}$.",
+        "explanation": "1. Tumbukan (kekekalan $L$ di engsel): $I_{\\text{tot}} = \\frac{1}{3}(3)(1)^2 + 1(0{,}5)^2 = 1{,}25\\text{ kg}\\cdot\\text{m}^2$. Maka $\\omega = \\frac{1(10)(0{,}5)}{1{,}25} = 4{,}0\\text{ rad/s}$.\n2. Ayunan naik (pusat massa gabungan $(M+m) = 4\\text{ kg}$ tepat di $d = 0{,}5\\text{ m}$): $$\\frac{1}{2}(1{,}25)(4{,}0)^2 = (4)(10)(0{,}5)(1 - \\cos\\theta) \\implies 10 = 20(1 - \\cos\\theta) \\implies \\cos\\theta = 0{,}5 \\implies \\theta = 60^\\circ$$"
+      },
+      {
+        "id": 2,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal ($I_s = \\frac{1}{2}m_1 R_1^2$) bermassa $m_1 = 4\\text{ kg}$ berada di meja horizontal kasar. Tali ringan dililitkan pada poros pusat massa silinder $m_1$, ditarik mendatar melewati katrol silinder pejal di tepi meja bermassa $M_k = 2\\text{ kg}$ ($I_k = \\frac{1}{2}M_k R_k^2$), lalu ujung vertikalnya mengikat beban $m_2 = 3\\text{ kg}$ ($g = 10\\text{ m/s}^2$).",
+          "Silinder $m_1$ menggelinding murni tanpa selip di meja dan tali tidak selip di katrol."
+        ],
+        "question": "Besar percepatan linear sistem tersebut adalah ...",
+        "options": {
+          "A": "$2{,}31\\text{ m/s}^2$",
+          "B": "$3{,}33\\text{ m/s}^2$",
+          "C": "$3{,}75\\text{ m/s}^2$",
+          "D": "$3{,}00\\text{ m/s}^2$",
+          "E": "$4{,}29\\text{ m/s}^2$"
+        },
+        "answer": "D",
+        "hint": "Tulis tiga persamaan: beban $m_2$ turun, katrol $M_k$ berotasi, dan silinder $m_1$ menggelinding (yang memerlukan $T_1 = \\frac{3}{2}m_1 a$).",
+        "explanation": "1. Beban gantung: $m_2 g - T_2 = m_2 a$.\n2. Katrol tepi: $T_2 - T_1 = \\frac{1}{2}M_k a$.\n3. Silinder menggelinding: $T_1 - f_s = m_1 a$ dan $f_s = \\frac{1}{2}m_1 a \\implies T_1 = \\frac{3}{2}m_1 a$.\nJumlahkan ketiganya: $$m_2 g = \\left(m_2 + \\frac{1}{2}M_k + \\frac{3}{2}m_1\\right)a \\implies 30 = (3 + 1 + 6)a \\implies a = 3{,}00\\text{ m/s}^2$$"
+      },
+      {
+        "id": 3,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah tangga homogen panjang $L = 5\\text{ m}$ dan berat $W_t = 100\\text{ N}$ bersandar pada dinding vertikal **licin** dengan kaki tangga berada $3\\text{ m}$ dari dinding di lantai kasar ($\\mu_s = 0{,}4$, sehingga $\\cos\\theta = 0{,}6$ dan $\\sin\\theta = 0{,}8$)."
+        ],
+        "question": "Seseorang dengan berat $W_o = 500\\text{ N}$ memanjat tangga. Jarak maksimum sepanjang tangga ($d$) yang dapat ditempuh orang dari kaki tangga sebelum tangga mulai tergelincir adalah ...",
+        "options": {
+          "A": "$1{,}30\\text{ m}$",
+          "B": "$1{,}62\\text{ m}$",
+          "C": "$2{,}20\\text{ m}$",
+          "D": "$3{,}20\\text{ m}$",
+          "E": "$2{,}70\\text{ m}$"
+        },
+        "answer": "E",
+        "hint": "Gaya normal lantai menopang berat tangga DAN berat orang sekaligus, lalu ambil poros momen gaya di kaki tangga.",
+        "explanation": "Gaya normal lantai $N_L = 100 + 500 = 600\\text{ N}$, sehingga batas gaya gesek $f_{s,\\max} = N_D = 0{,}4(600) = 240\\text{ N}$. Mengambil poros di kaki tangga: $$N_D(L\\sin\\theta) = W_t\\left(\\frac{L}{2}\\cos\\theta\\right) + W_o(d\\cos\\theta)$$ $$240(5 \\times 0{,}8) = 100(2{,}5 \\times 0{,}6) + 500(0{,}6 d) \\implies 960 = 150 + 300 d \\implies d = 2{,}70\\text{ m}$$"
+      },
+      {
+        "id": 4,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal didorong dari dasar bidang miring kasar bersudut $\\theta$ sehingga menggelinding murni ke atas sampai berhenti sesaat di titik tertinggi, lalu berbalik arah menggelinding murni kembali menuruni bidang miring tersebut."
+        ],
+        "question": "Arah gaya gesek statis ($f_s$) yang bekerja pada silinder saat bergerak **naik** dan saat bergerak **turun** berturut-turut adalah ...",
+        "options": {
+          "A": "Ke bawah bidang miring saat naik, dan ke atas bidang miring saat turun",
+          "B": "Ke atas bidang miring saat naik, dan ke bawah bidang miring saat turun",
+          "C": "Ke atas bidang miring saat naik, dan ke atas bidang miring saat turun",
+          "D": "Ke bawah bidang miring saat naik, dan ke bawah bidang miring saat turun",
+          "E": "Nol sepanjang lintasan naik, dan ke atas bidang miring saat turun"
+        },
+        "answer": "C",
+        "hint": "Tentukan arah percepatan sudut $\\alpha$ yang dibutuhkan agar $\\omega$ berkurang saat naik dan bertambah saat turun, lalu cek torsi gaya gesek di dasar silinder.",
+        "explanation": "Saat naik, laju sudut $\\omega$ melambat sehingga percepatan sudut $\\alpha$ berlawanan dengan putaran naik; torsi di titik kontak bawah yang mengerem putaran naik harus dihasilkan oleh $f_s$ yang mengarah **ke atas bidang miring**. Saat turun, $\\alpha$ mempercepat putaran turun yang juga membutuhkan $f_s$ **ke atas bidang miring** (mencegah titik kontak tergelincir ke bawah)."
+      },
+      {
+        "id": 5,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang **tak homogen** AB panjang $L = 4{,}0\\text{ m}$ dan berat $W = 100\\text{ N}$ digantung mendatar dengan dua tali vertikal: tali 1 di ujung kiri A dan tali 2 di titik C yang berjarak **$1{,}0\\text{ m}$ dari ujung kanan B** ($AC = 3{,}0\\text{ m}$).",
+          "Pada ujung kanan B digantung beban tambahan $w = 20\\text{ N}$ dan tegangan tali di A terbaca $T_A = 40\\text{ N}$."
+        ],
+        "question": "Jarak letak pusat massa batang tersebut diukur dari ujung kiri A adalah ...",
+        "options": {
+          "A": "$1{,}6\\text{ m}$",
+          "B": "$1{,}2\\text{ m}$",
+          "C": "$1{,}4\\text{ m}$",
+          "D": "$2{,}0\\text{ m}$",
+          "E": "$2{,}4\\text{ m}$"
+        },
+        "answer": "A",
+        "hint": "Cari dahulu $T_C$ dari $\\Sigma F_y = 0$, lalu gunakan $\\Sigma\\tau_A = 0$ dengan lengan $T_C$ sejauh $3{,}0\\text{ m}$.",
+        "explanation": "Dari $\\Sigma F_y = 0$: $T_A + T_C = 100 + 20 \\implies T_C = 120 - 40 = 80\\text{ N}$. Mengambil poros di A: $$W \\cdot x + w(4{,}0) = T_C(3{,}0) \\implies 100 x + 20(4{,}0) = 80(3{,}0) \\implies 100 x = 160 \\implies x = 1{,}6\\text{ m}$$"
+      },
+      {
+        "id": 6,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah silinder pejal homogen bermassa $M = 15\\text{ kg}$ ($g = 10\\text{ m/s}^2$) dan jari-jari $R = 50\\text{ cm}$ berada di lantai datar tepat menyentuh sebuah undakan kaku setinggi $h = 20\\text{ cm}$."
+        ],
+        "question": "Gaya tarik horizontal minimum $F$ yang dikerjakan pada **poros pusat** silinder agar silinder tepat mulai terangkat naik melewati tepi undakan adalah ...",
+        "options": {
+          "A": "$112{,}5\\text{ N}$",
+          "B": "$150{,}0\\text{ N}$",
+          "C": "$250{,}0\\text{ N}$",
+          "D": "$200{,}0\\text{ N}$",
+          "E": "$300{,}0\\text{ N}$"
+        },
+        "answer": "D",
+        "hint": "Poros putar sesaat adalah sudut undakan; cari lengan vertikal gaya $F$ ($R-h$) dan lengan horizontal gaya berat dengan Pythagoras.",
+        "explanation": "Lengan vertikal gaya $F$ terhadap sudut undakan adalah $R - h = 0{,}5 - 0{,}2 = 0{,}3\\text{ m}$. Lengan horizontal gaya berat $W = 150\\text{ N}$ adalah $\\sqrt{R^2 - (R-h)^2} = \\sqrt{0{,}5^2 - 0{,}3^2} = 0{,}4\\text{ m}$. Saat tepat terangkat ($N_{\\text{lantai}} = 0$): $$F(0{,}3) = 150(0{,}4) \\implies F = 200{,}0\\text{ N}$$"
+      },
+      {
+        "id": 7,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah pelat cakram homogen tipis bermassa mula-mula $M_0 = 16\\text{ kg}$ dan jari-jari $R = 0{,}50\\text{ m}$ dilubangi secara **eksentrik** (tak sepusat) berupa lubang lingkaran berjari-jari $r = 0{,}25\\text{ m}$ yang pusat lubangnya berjarak $d = 0{,}25\\text{ m}$ dari pusat cakram asli O.",
+          "Sisa pelat diputar melalui pusat cakram asli O oleh momen gaya konstan $\\tau = 6{,}5\\text{ N}\\cdot\\text{m}$."
+        ],
+        "question": "Besar percepatan sudut yang dialami pelat berlubang tersebut adalah ...",
+        "options": {
+          "A": "$2{,}74\\text{ rad/s}^2$",
+          "B": "$3{,}25\\text{ rad/s}^2$",
+          "C": "$3{,}47\\text{ rad/s}^2$",
+          "D": "$4{,}33\\text{ rad/s}^2$",
+          "E": "$4{,}00\\text{ rad/s}^2$"
+        },
+        "answer": "E",
+        "hint": "Karena lubang tidak berada di pusat O, wajib gunakan teorema sumbu sejajar saat menghitung $I_{\\text{lubang, O}} = \\frac{1}{2}mr^2 + md^2$.",
+        "explanation": "1. Cakram utuh: $I_0 = \\frac{1}{2}(16)(0{,}5)^2 = 2{,}00\\text{ kg}\\cdot\\text{m}^2$.\n2. Lubang ($m = (0{,}25/0{,}5)^2 \\times 16 = 4\\text{ kg}$) terhadap O: $I_{\\text{lubang}} = \\frac{1}{2}(4)(0{,}25)^2 + 4(0{,}25)^2 = 0{,}125 + 0{,}25 = 0{,}375\\text{ kg}\\cdot\\text{m}^2$.\n3. $I_{\\text{sisa}} = 2{,}00 - 0{,}375 = 1{,}625\\text{ kg}\\cdot\\text{m}^2$, sehingga $\\alpha = \\frac{6{,}5}{1{,}625} = 4{,}00\\text{ rad/s}^2$."
+      },
+      {
+        "id": 8,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen bermassa $M = 4\\text{ kg}$ dan panjang $L = 3{,}0\\text{ m}$ diletakkan bebas di atas meja es mendatar **tanpa engsel** (licin sempurna).",
+          "Sebuah partikel bermassa $m = 2\\text{ kg}$ meluncur dengan kecepatan $v = 12\\text{ m/s}$ tegak lurus batang, lalu menumbuk tepat **salah satu ujung batang** secara tak lenting sama sekali (menempel di ujung tersebut)."
+        ],
+        "question": "Kecepatan sudut putar sistem gabungan tepat setelah tumbukan adalah ...",
+        "options": {
+          "A": "$2{,}4\\text{ rad/s}$",
+          "B": "$4{,}0\\text{ rad/s}$",
+          "C": "$4{,}8\\text{ rad/s}$",
+          "D": "$7{,}2\\text{ rad/s}$",
+          "E": "$12{,}0\\text{ rad/s}$"
+        },
+        "answer": "B",
+        "hint": "Batang bebas berotasi mengelilingi pusat massa gabungan yang bergeser dari titik tengah batang menuju ujung yang tertumbuk!",
+        "explanation": "1. Letak pusat massa gabungan dari titik tengah batang: $x_{\\text{pm}} = \\frac{m(L/2)}{M+m} = \\frac{2(1{,}5)}{4+2} = 0{,}5\\text{ m}$ ke arah ujung tertumbuk (sehingga jarak partikel ke pusat massa baru adalah $1{,}5 - 0{,}5 = 1{,}0\\text{ m}$).\n2. Momen inersia terhadap pusat massa baru: $I_{\\text{baru}} = \\left(\\frac{1}{12}(4)(3)^2 + 4(0{,}5)^2\\right) + 2(1{,}0)^2 = (3 + 1) + 2 = 6{,}0\\text{ kg}\\cdot\\text{m}^2$.\n3. Kekekalan $L$ terhadap titik pusat massa baru: $m v (1{,}0) = I_{\\text{baru}}\\omega \\implies 2(12)(1{,}0) = 6{,}0\\omega \\implies \\omega = 4{,}0\\text{ rad/s}$."
+      },
+      {
+        "id": 9,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah batang homogen bermassa $M = 6\\text{ kg}$ dan panjang $L = 2\\text{ m}$ berada dalam posisi horizontal dengan ujung kiri A berengsel licin ($I_b = \\frac{1}{3}ML^2$). Ujung kanan B diikat tali vertikal ke atas yang melilit pada katrol silinder pejal bermassa $M_k = 6\\text{ kg}$ ($I_k = \\frac{1}{2}M_k R^2$) berporos tetap licin.",
+          "Batang awalnya ditahan diam lalu dilepas sehingga ujung B turun memutar katrol tanpa selip ($g = 10\\text{ m/s}^2$)."
+        ],
+        "question": "Tepat sesaat setelah dilepaskan, percepatan sudut awal batang ($\\alpha_b$) dan tegangan tali ($T$) adalah ...",
+        "options": {
+          "A": "$\\alpha_b = 1{,}88\\text{ rad/s}^2$ dan $T = 22{,}5\\text{ N}$",
+          "B": "$\\alpha_b = 2{,}50\\text{ rad/s}^2$ dan $T = 15{,}0\\text{ N}$",
+          "C": "$\\alpha_b = 3{,}00\\text{ rad/s}^2$ dan $T = 18{,}0\\text{ N}$",
+          "D": "$\\alpha_b = 4{,}29\\text{ rad/s}^2$ dan $T = 12{,}9\\text{ N}$",
+          "E": "$\\alpha_b = 4{,}29\\text{ rad/s}^2$ dan $T = 25{,}7\\text{ N}$"
+        },
+        "answer": "C",
+        "hint": "Percepatan linear tali sama dengan percepatan ujung B ($a_B = \\alpha_b L$), sedangkan pada katrol berlaku $T = \\frac{1}{2}M_k a_B$.",
+        "explanation": "1. Katrol: $TR = \\frac{1}{2}M_k R^2 (a_B/R) \\implies T = \\frac{1}{2}(6)(2\\alpha_b) = 6\\alpha_b$.\n2. Batang ($I_b = \\frac{1}{3}(6)(2)^2 = 8\\text{ kg}\\cdot\\text{m}^2$): $Mg(1) - T(2) = 8\\alpha_b \\implies 60 - 12\\alpha_b = 8\\alpha_b \\implies \\alpha_b = 3{,}00\\text{ rad/s}^2$, sehingga $T = 6(3{,}00) = 18{,}0\\text{ N}$."
+      },
+      {
+        "id": 10,
+        "type": "multiple_choice",
+        "story": [
+          "Dari puncak sebuah bidang miring kasar sepanjang $s = 12\\text{ m}$ dengan kemiringan $30^\\circ$ ($\\sin 30^\\circ = 0{,}5;\\ g = 10\\text{ m/s}^2$), dilepaskan bersamaan dari diam sebuah **bola pejal** ($I = \\frac{2}{5}mR^2$) dan sebuah **silinder tipis berongga** ($I = mR^2$). Keduanya menggelinding tanpa selip."
+        ],
+        "question": "Pada saat bola pejal tepat menyentuh dasar bidang miring, jarak yang **masih tersisa** bagi silinder tipis berongga hingga mencapai dasar adalah ...",
+        "options": {
+          "A": "$3{,}60\\text{ m}$",
+          "B": "$1{,}96\\text{ m}$",
+          "C": "$3{,}00\\text{ m}$",
+          "D": "$7{,}20\\text{ m}$",
+          "E": "$8{,}40\\text{ m}$"
+        },
+        "answer": "A",
+        "hint": "Karena waktu tempuhnya sama dan $v_0 = 0$, jarak yang sudah ditempuh sebanding dengan percepatan masing-masing ($s = \\frac{1}{2}at^2$).",
+        "explanation": "Percepatan bola: $a_P = \\frac{5}{1 + 2/5} = \\frac{25}{7}\\text{ m/s}^2$. Percepatan silinder berongga: $a_Q = \\frac{5}{1 + 1} = 2{,}5\\text{ m/s}^2$. Pada selang waktu yang sama, jarak yang telah ditempuh Q adalah $s_Q = 12 \\times \\frac{a_Q}{a_P} = 12 \\times \\frac{2{,}5}{25/7} = 8{,}40\\text{ m}$. Jarak tersisa: $12 - 8{,}40 = 3{,}60\\text{ m}$."
+      },
+      {
+        "id": 11,
+        "type": "multiple_select",
+        "story": [
+          "Sebuah roda pejal bermassa $M$ dan jari-jari $R$ berada di lantai horizontal kasar dan ditarik oleh gaya horizontal konstan $F$ tepat pada **pusat massanya** sehingga roda menggelinding murni ke kanan."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR**? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Usaha total gaya gesek statis terhadap roda bernilai nol karena titik kontak lantai memiliki kelajuan sesaat nol",
+          "B": "Jika gaya $F$ yang sama bekerja di pusat massa pada lantai licin sempurna, percepatan pusat massa roda akan lebih besar",
+          "C": "Ketika kelajuan pusat massa roda mencapai $v$, kelajuan titik teratas roda terhadap lantai bernilai $2v$",
+          "D": "Arah gaya gesek statis pada titik kontak bawah mengarah ke kanan searah $F$ untuk memutar roda searah jarum jam",
+          "E": "Momentum sudut roda terhadap titik singgung lantai tetap konstan selama gerak berlangsung meski gaya $F$ bekerja"
+        },
+        "answer": ["A", "B", "C"],
+        "hint": "Perhatikan arah gaya gesek saat gaya tarik bekerja di pusat massa, serta torsi dari gaya $F$ terhadap titik singgung lantai.",
+        "explanation": "1. **A benar**: Pada gerak menggelinding murni, $v_{\\text{kontak}} = 0$ sehingga $dW_{f_s} = \\vec{f}_s \\cdot \\vec{v}_{\\text{kontak}}\\,dt = 0$.\n2. **B benar**: Pada lantai licin $a = F/M$, lebih besar daripada $a = \\frac{F}{M(1+k)}$ saat menggelinding.\n3. **C benar**: Titik puncak bergerak dengan kelajuan $v_{\\text{pm}} + \\omega R = 2v$.\n4. **D salah**: Gaya tarik di pusat tidak memberi torsi terhadap pusat; supaya roda berputar CW, $f_s$ harus mengarah **ke kiri**.\n5. **E salah**: Terhadap titik singgung lantai, gaya $F$ menghasilkan torsi $FR \\ne 0$ sehingga momentum sudut terus bertambah."
+      },
+      {
+        "id": 12,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah papan jembatan homogen AB panjang $L = 6\\text{ m}$ dan berat $W_b = 300\\text{ N}$ ditahan mendatar oleh engsel licin di ujung kiri A dan sebuah kabel di ujung kanan B yang ditarik ke atas-kiri membentuk sudut $53^\\circ$ terhadap batang ($\\sin 53^\\circ = 0{,}8;\\ \\cos 53^\\circ = 0{,}6$).",
+          "Tegangan putus maksimum kabel adalah $T_{\\max} = 400\\text{ N}$. Sebuah peti seberat $w = 300\\text{ N}$ digeser pelan-pelan dari A menuju kanan sepanjang papan."
+        ],
+        "question": "Jarak maksimum ($x$) peti diukur dari ujung A sebelum kabel tepat putus adalah ...",
+        "options": {
+          "A": "$0{,}4\\text{ m}$",
+          "B": "$1{,}8\\text{ m}$",
+          "C": "$4{,}8\\text{ m}$",
+          "D": "$5{,}0\\text{ m}$",
+          "E": "$3{,}4\\text{ m}$"
+        },
+        "answer": "E",
+        "hint": "Gunakan keseimbangan torsi di engsel A saat $T = T_{\\max} = 400\\text{ N}$ dengan komponen vertikal kabel $T_{\\max}\\sin 53^\\circ$.",
+        "explanation": "Dengan poros di engsel A ($\\Sigma\\tau_A = 0$) pada saat batas $T = 400\\text{ N}$: $$W_b(3{,}0) + w \\cdot x = T_{\\max}\\sin 53^\\circ \\cdot L$$ $$300(3{,}0) + 300 x = 400(0{,}8)(6{,}0) \\implies 900 + 300 x = 1920 \\implies 300 x = 1020 \\implies x = 3{,}4\\text{ m}$$"
+      },
+      {
+        "id": 13,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah katrol silinder pejal ($I = \\frac{1}{2}MR^2$) bermassa $M = 4\\text{ kg}$ dan jari-jari $R = 0{,}2\\text{ m}$ berporos mendatar licin. Seutas tali ringan dililitkan pada katrol dan ujung bebasnya mengikat balok bermassa $m = 6\\text{ kg}$ ($g = 10\\text{ m/s}^2$).",
+          "Balok dilepas dari keadaan diam dan turun vertikal sejauh $h = 2{,}4\\text{ m}$ tanpa selip antara tali dan katrol."
+        ],
+        "question": "Kelajuan linear balok ($v$) dan energi kinetik rotasi katrol ($E_{k,\\text{katrol}}$) saat balok telah turun sejauh $2{,}4\\text{ m}$ adalah ...",
+        "options": {
+          "A": "$v = 5{,}4\\text{ m/s}$ dan $E_{k,\\text{katrol}} = 57{,}6\\text{ J}$",
+          "B": "$v = 6{,}0\\text{ m/s}$ dan $E_{k,\\text{katrol}} = 36{,}0\\text{ J}$",
+          "C": "$v = 6{,}0\\text{ m/s}$ dan $E_{k,\\text{katrol}} = 72{,}0\\text{ J}$",
+          "D": "$v = 6{,}0\\text{ m/s}$ dan $E_{k,\\text{katrol}} = 108{,}0\\text{ J}$",
+          "E": "$v = 6{,}9\\text{ m/s}$ dan $E_{k,\\text{katrol}} = 48{,}0\\text{ J}$"
+        },
+        "answer": "B",
+        "hint": "Gunakan kekekalan energi mekanik $mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$ dengan $\\omega = v/R$.",
+        "explanation": "Dari kekekalan energi mekanik: $$mgh = \\frac{1}{2}mv^2 + \\frac{1}{2}\\left(\\frac{1}{2}MR^2\\right)\\left(\\frac{v}{R}\\right)^2 = \\frac{1}{2}\\left(m + \\frac{1}{2}M\\right)v^2$$ $$6(10)(2{,}4) = \\frac{1}{2}(6 + 2)v^2 \\implies 144 = 4 v^2 \\implies v = 6{,}0\\text{ m/s}$$ Maka energi kinetik rotasi katrol: $E_{k,\\text{katrol}} = \\frac{1}{4}Mv^2 = \\frac{1}{4}(4)(6{,}0)^2 = 36{,}0\\text{ J}$."
+      },
+      {
+        "id": 14,
+        "type": "multiple_choice",
+        "story": [
+          "Sebuah katrol bertingkat dua silinder konsentris menyatu memiliki momen inersia total $I = 0{,}27\\text{ kg}\\cdot\\text{m}^2$, jari-jari dalam $r_1 = 0{,}1\\text{ m}$, dan jari-jari luar $r_2 = 0{,}3\\text{ m}$.",
+          "Pada lingkar dalam ($r_1$) dililitkan tali penahan beban kiri $m_1 = 5\\text{ kg}$, sedangkan pada lingkar luar ($r_2$) dililitkan tali penahan beban kanan $m_2 = 2\\text{ kg}$ ($g = 10\\text{ m/s}^2$). Sistem dilepas dari diam."
+        ],
+        "question": "Besar percepatan sudut awal katrol dan arah putarannya adalah ...",
+        "options": {
+          "A": "$2{,}0\\text{ rad/s}^2$ berlawanan arah jarum jam",
+          "B": "$2{,}2\\text{ rad/s}^2$ searah jarum jam",
+          "C": "$3{,}7\\text{ rad/s}^2$ searah jarum jam",
+          "D": "$2{,}0\\text{ rad/s}^2$ searah jarum jam",
+          "E": "$3{,}7\\text{ rad/s}^2$ berlawanan arah jarum jam"
+        },
+        "answer": "D",
+        "hint": "Meskipun $m_1 > m_2$, bandingkan torsi awalnya ($m_2 g r_2$ vs $m_1 g r_1$) dan jangan lupa sertakan inersia translasi kedua beban ($m_1 r_1^2 + m_2 r_2^2$)!",
+        "explanation": "Bandingkan torsi penggerak: kanan CW $= 20(0{,}3) = 6{,}0\\text{ N}\\cdot\\text{m} >$ kiri CCW $= 50(0{,}1) = 5{,}0\\text{ N}\\cdot\\text{m}$, sehingga katrol berputar **searah jarum jam** ($m_2$ turun, $m_1$ naik).\nDengan $T_2 = m_2(g - \\alpha r_2)$ dan $T_1 = m_1(g + \\alpha r_1)$ pada $T_2 r_2 - T_1 r_1 = I\\alpha$: $$\\alpha = \\frac{m_2 g r_2 - m_1 g r_1}{I + m_2 r_2^2 + m_1 r_1^2} = \\frac{6{,}0 - 5{,}0}{0{,}27 + 2(0{,}09) + 5(0{,}01)} = \\frac{1{,}0}{0{,}50} = 2{,}0\\text{ rad/s}^2$$"
+      },
+      {
+        "id": 15,
+        "type": "multiple_select",
+        "story": [
+          "Berikut disajikan lima pernyataan konseptual mengenai dinamika rotasi dan keseimbangan benda tegar untuk menguji ketepatan asumsi fisika."
+        ],
+        "question": "Manakah pernyataan berikut yang **BENAR** secara fisika? *(Pilih **3 jawaban** yang tepat)*",
+        "options": {
+          "A": "Pada penggabungan tak lenting dua cakram koaksial bebas torsi luar dengan laju sudut awal berbeda, momentum sudut kekal tetapi energi kinetik total berkurang",
+          "B": "Silinder pejal dan cincin tipis bermassa sama yang dilepas dari diam di puncak bidang miring **licin sempurna** akan memperlihatkan silinder pejal tiba lebih cepat",
+          "C": "Sebuah pelat segi empat tipis homogen bersisi panjang $b$ dan lebar $a$ yang diputar di sumbu tepi sepanjang sisi $a$ memiliki momen inersia $I = \\frac{1}{3}Mb^2$",
+          "D": "Pada pesawat Atwood dengan katrol bermassa $M \\ne 0$ dan beban berbeda yang dipercepat tanpa selip, tegangan tali di kedua sisi katrol bernilai tidak sama",
+          "E": "Apabila resultan gaya pada suatu benda tegar sama dengan nol ($\\Sigma\\vec{F} = 0$), maka resultan momen gaya terhadap setiap titik sembarang pasti bernilai nol"
+        },
+        "answer": ["A", "C", "D"],
+        "hint": "Waspadai kalimat jebakan pada bidang miring 'licin sempurna' (apakah benda bisa menggelinding?) serta sifat kopel saat $\\Sigma\\vec{F} = 0$.",
+        "explanation": "1. **A benar**: Tidak ada torsi luar sehingga $L$ kekal, namun gesekan internal saat menyamakan $\\omega$ mendisipasi energi kinetik.\n2. **B salah**: Pada bidang miring **licin sempurna**, tidak ada torsi gesek sehingga keduanya hanya **meluncur** tanpa berotasi dengan percepatan sama $a = g\\sin\\theta$ dan tiba bersamaan.\n3. **C benar**: Pelat membentang sejauh $b$ tegak lurus dari tepi sumbu $a$, sehingga $I = \\frac{1}{3}Mb^2$.\n4. **D benar**: Agar katrol bermassa mengalami $\\alpha \\ne 0$, diperlukan selisih tegangan tali $(T_1 - T_2)R = I\\alpha \\ne 0$.\n5. **E salah**: Sepasang kopel memenuhi $\\Sigma\\vec{F} = 0$ namun menghasilkan $\\Sigma\\vec{\\tau} \\ne 0$ terhadap semua titik."
+      }
+    ]
+  }
+  ]
+}
